@@ -60,6 +60,7 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
