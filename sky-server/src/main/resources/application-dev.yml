@@ -19,5 +19,5 @@ sky:
     database: 10
   # 设置wechat的账号信息
   wechat:
-    appid:
-    secret:
+    appid: wx256dd156a28394d7
+    secret: 0afed56311f9be628fb1800441a436c5
