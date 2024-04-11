@@ -55,7 +55,7 @@ public class DishController {
         dish.setStatus(StatusConstant.ENABLE);//查询起售中的菜品
 
         // 查询菜品
-        List<DishVO> list = dishService.listWithFlavor(dish);
+        list = dishService.listWithFlavor(dish);
 
         // 缓存到redis
         redisTemplate.opsForValue().set(key, list);
