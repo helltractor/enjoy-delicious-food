@@ -5,6 +5,6 @@
     <insert id="insert" parameterType="User" useGeneratedKeys="true" keyProperty="id">
         insert into user
             (openid, name, phone, sex, id_number, avatar, create_time)
-        values (#{openId}, #{name}, #{phone}, #{sex}, #{idNumber}, #{avatar}, #{createTime})
+        values (#{openid}, #{name}, #{phone}, #{sex}, #{idNumber}, #{avatar}, #{createTime})
     </insert>
 </mapper>
