@@ -8,10 +8,9 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "sky.alioss")
 @Data
 public class AliOssProperties {
-    
     private String endpoint = "oss-cn-hangzhou.aliyuncs.com";
-    private String accessKeyId = "LTAI5t6tLJZUguPNuhzUarAs";
-    private String accessKeySecret = "BVgkBLarf2nBQloYRkrlxTJfQkp81p";
+    private String accessKeyId = "LTAI5tFkWTaLfJwzjzr635yP";
+    private String accessKeySecret = "3Q0dX94NW5ReSEUuie2jKFQ6wufmnd";
     private String bucketName = "helltractor";
     
 }
