@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "sky.wechat")
 @Data
 public class WeChatProperties {
-
+    
     private String appid; //小程序的appid
     private String secret; //小程序的秘钥
     private String mchid; //商户号
@@ -18,5 +18,5 @@ public class WeChatProperties {
     private String weChatPayCertFilePath; //平台证书
     private String notifyUrl; //支付成功的回调地址
     private String refundNotifyUrl; //退款成功的回调地址
-
+    
 }
