@@ -14,7 +14,7 @@ import java.util.List;
  */
 
 @Mapper
-public interface ShoppingCartMapping {
+public interface ShoppingCartMapper {
 
     /**
      * 查询购物车列表
@@ -56,4 +56,11 @@ public interface ShoppingCartMapping {
      */
     @Delete("delete from shopping_cart where user_id = #{userId}")
     void deleteByUserId(Long userId);
+    
+    /**
+     * 批量插入购物车数据
+     *
+     * @param shoppingCartList
+     */
+    void insertBatch(List<ShoppingCart> shoppingCartList);
 }

@@ -7,7 +7,7 @@ import com.sky.entity.Setmeal;
 import com.sky.entity.ShoppingCart;
 import com.sky.mapper.DishMapper;
 import com.sky.mapper.SetmealDishMapper;
-import com.sky.mapper.ShoppingCartMapping;
+import com.sky.mapper.ShoppingCartMapper;
 import com.sky.service.ShoppingCartService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
@@ -26,7 +26,7 @@ import java.util.List;
 @Slf4j
 public class ShoppingCartServicelmpl implements ShoppingCartService {
     @Autowired
-    private ShoppingCartMapping shoppingCartMapping;
+    private ShoppingCartMapper shoppingCartMapper;
 
     @Autowired
     private DishMapper dishMapper;
@@ -45,13 +45,13 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
         Long userId = BaseContext.getCurrentId();
         shoppingCart.setUserId(userId);
 
-        List<ShoppingCart> list = shoppingCartMapping.list(shoppingCart);
+        List<ShoppingCart> list = shoppingCartMapper.list(shoppingCart);
 
         // 如果存在，则更新商品数量
         if (list != null && list.size() > 0) {
             ShoppingCart cart = list.get(0);
             cart.setNumber(cart.getNumber() + 1);
-            shoppingCartMapping.updateNumberById(cart);
+            shoppingCartMapper.updateNumberById(cart);
         } else {
             // 如果不存在，则添加商品到购物车
             Long dishId = shoppingCartDTO.getDishId();
@@ -69,7 +69,7 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
             }
             shoppingCart.setNumber(1);
             shoppingCart.setCreateTime(LocalDateTime.now());
-            shoppingCartMapping.insert(shoppingCart);
+            shoppingCartMapper.insert(shoppingCart);
         }
     }
 
@@ -82,7 +82,7 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
         Long userId = BaseContext.getCurrentId();
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.setUserId(userId);
-        List<ShoppingCart> list = shoppingCartMapping.list(shoppingCart);
+        List<ShoppingCart> list = shoppingCartMapper.list(shoppingCart);
         return list;
     }
 
@@ -96,14 +96,14 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.setUserId(userId);
         BeanUtils.copyProperties(shoppingCartDTO, shoppingCart);
-        List<ShoppingCart> list = shoppingCartMapping.list(shoppingCart);
+        List<ShoppingCart> list = shoppingCartMapper.list(shoppingCart);
         if (list != null && list.size() > 0) {
             ShoppingCart cart = list.get(0);
             cart.setNumber(cart.getNumber() - 1);
             if (cart.getNumber() == 0) {
-                shoppingCartMapping.deleteById(cart.getId());
+                shoppingCartMapper.deleteById(cart.getId());
             } else {
-                shoppingCartMapping.updateNumberById(cart);
+                shoppingCartMapper.updateNumberById(cart);
             }
         }
     }
@@ -113,8 +113,8 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
      *
      * @param
      */
-    public void deleteShoppingCart() {
+    public void cleanShoppingCart() {
         Long userId = BaseContext.getCurrentId();
-        shoppingCartMapping.deleteByUserId(userId);
+        shoppingCartMapper.deleteByUserId(userId);
     }
 }
