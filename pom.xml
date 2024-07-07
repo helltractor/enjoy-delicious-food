@@ -8,14 +8,14 @@
         <groupId>org.springframework.boot</groupId>
         <version>2.7.3</version>
     </parent>
-    <groupId>com.sky</groupId>
-    <artifactId>sky-take-out</artifactId>
+    <groupId>com.enjoy</groupId>
+    <artifactId>enjoy-take-out</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>sky-common</module>
-        <module>sky-pojo</module>
-        <module>sky-server</module>
+        <module>enjoy-common</module>
+        <module>enjoy-pojo</module>
+        <module>enjoy-server</module>
     </modules>
     <properties>
         <mysql>8.0.22</mysql>

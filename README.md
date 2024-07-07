@@ -2,8 +2,8 @@
 	<strong>精彩享受食</strong>
 </p>
 <p align="center">
-    <a target="blank" href="https://github.com/Helltractor/Sky-take-out">
-        <img src="https://img.shields.io/github/stars/Helltractor/Sky-take-out.svg?style=social" alt="github star"/>
+    <a target="blank" href="https://github.com/Helltractor/enjoy-take-out">
+        <img src="https://img.shields.io/github/stars/Helltractor/enjoy-take-out.svg?style=social" alt="github star"/>
     </a>
     <a target="_blank" href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/:license-MIT-blue.svg" alt="license"/>

@@ -1,0 +1,23 @@
+enjoy:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: enjoy_take_out
+    username: root
+    password:
+  alioss:
+    endpoint: { enjoy.alioss.endpoint }
+    access-key-id: { enjoy.alioss.access-key-id }
+    access-key-secret: { enjoy.alioss.access-key-secret }
+    bucket-name: { enjoy.alioss.bucket-name }
+  # 配置redis的数据源
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 10
+  # 设置wechat的账号信息
+  wechat:
+    appid: wx256dd156a28394d7
+    secret: 0afed56311f9be628fb1800441a436c5
