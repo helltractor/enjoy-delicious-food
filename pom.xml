@@ -8,16 +8,18 @@
         <groupId>org.springframework.boot</groupId>
         <version>2.7.3</version>
     </parent>
-    <groupId>com.sky</groupId>
-    <artifactId>sky-take-out</artifactId>
+    <groupId>com.enjoy</groupId>
+    <artifactId>enjoy-take-out</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>sky-common</module>
-        <module>sky-pojo</module>
-        <module>sky-server</module>
+        <module>enjoy-common</module>
+        <module>enjoy-pojo</module>
+        <module>enjoy-server</module>
+        <module>enjoy-build</module>
     </modules>
     <properties>
+        <project>1.0-SNAPSHOT</project>
         <mysql>8.0.22</mysql>
         <mybatis.spring>2.2.0</mybatis.spring>
         <lombok>1.18.30</lombok>
@@ -34,19 +36,11 @@
     </properties>
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql}</version>
                 <scope>runtime</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.shenjia</groupId>
-                <artifactId>MyBatisX</artifactId>
-                <version>1.7.0</version>
-                <type>pom</type>
             </dependency>
 
             <dependency>
@@ -127,17 +121,20 @@
                 <artifactId>poi</artifactId>
                 <version>${poi}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
                 <version>${poi}</version>
             </dependency>
+
             <!--微信登录-->
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>4.5.13</version>
             </dependency>
+
             <!--微信支付-->
             <dependency>
                 <groupId>com.github.wechatpay-apiv3</groupId>
@@ -146,4 +143,16 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.enjoy.EnjoyApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
