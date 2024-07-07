@@ -77,7 +77,7 @@ public class ShoppingCartController {
     @ApiOperation("清空购物车")
     public Result delete() {
         log.info("清空购物车");
-        shoppingCartService.deleteShoppingCart();
+        shoppingCartService.cleanShoppingCart();
         return Result.success();
     }
 }

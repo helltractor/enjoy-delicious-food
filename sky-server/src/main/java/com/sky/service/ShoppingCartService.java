@@ -33,5 +33,5 @@ public interface ShoppingCartService {
      *
      * @param
      */
-    void deleteShoppingCart();
+    void cleanShoppingCart();
 }
