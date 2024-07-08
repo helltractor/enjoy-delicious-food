@@ -16,8 +16,10 @@
         <module>enjoy-common</module>
         <module>enjoy-pojo</module>
         <module>enjoy-server</module>
+        <module>enjoy-build</module>
     </modules>
     <properties>
+        <project>1.0-SNAPSHOT</project>
         <mysql>8.0.22</mysql>
         <mybatis.spring>2.2.0</mybatis.spring>
         <lombok>1.18.30</lombok>
@@ -141,4 +143,16 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.enjoy.EnjoyApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

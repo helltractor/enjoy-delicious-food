@@ -10,15 +10,18 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.io.ByteArrayInputStream;
 
+/**
+ * 阿里云OSS工具类
+ */
 @Data
 @AllArgsConstructor
 @Slf4j
 public class AliOssUtil {
     
-    private String endpoint;
-    private String accessKeyId;
-    private String accessKeySecret;
-    private String bucketName;
+    private String endpoint;        //地域节点
+    private String accessKeyId;     //访问密钥
+    private String accessKeySecret; //访问密钥
+    private String bucketName;      //存储空间名
     
     /**
      * 文件上传

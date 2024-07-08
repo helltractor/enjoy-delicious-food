@@ -9,7 +9,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.Map;
 
+/**
+ * jwt工具类
+ */
 public class JwtUtil {
+    
     /**
      * 生成jwt
      * 使用Hs256算法, 私匙使用固定秘钥
