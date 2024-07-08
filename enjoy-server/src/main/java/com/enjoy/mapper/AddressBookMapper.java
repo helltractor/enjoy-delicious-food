@@ -12,7 +12,6 @@ public interface AddressBookMapper {
      * 条件查询
      *
      * @param addressBook
-     * @return
      */
     List<AddressBook> list(AddressBook addressBook);
     
@@ -32,7 +31,6 @@ public interface AddressBookMapper {
      * 根据id查询
      *
      * @param id
-     * @return
      */
     @Select("select * from address_book where id = #{id}")
     AddressBook getById(Long id);

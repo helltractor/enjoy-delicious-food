@@ -13,6 +13,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class EnjoyApplication {
     public static void main(String[] args) {
         SpringApplication.run(EnjoyApplication.class, args);
-        log.info("server started");
+        log.info("Server started. Open http://localhost/#/login in your browser to login.");
     }
 }
