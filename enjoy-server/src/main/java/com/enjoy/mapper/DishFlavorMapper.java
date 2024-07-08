@@ -1,8 +1,6 @@
 package com.enjoy.mapper;
 
-import com.enjoy.annotation.AutoFill;
 import com.enjoy.entity.DishFlavor;
-import com.enjoy.enumeration.OperationType;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
