@@ -5,3 +5,5 @@
 *Test.java
 **/test/
 docker/
+logs/
+*.rdb

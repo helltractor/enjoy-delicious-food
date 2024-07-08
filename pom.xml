@@ -9,7 +9,7 @@
         <version>2.7.3</version>
     </parent>
     <groupId>com.enjoy</groupId>
-    <artifactId>enjoy-take-out</artifactId>
+    <artifactId>enjoy-delicious-food</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
