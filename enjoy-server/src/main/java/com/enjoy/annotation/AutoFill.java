@@ -10,6 +10,8 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface AutoFill {
+    
     // 数据库操作类型： UPDATE， INSERT
     OperationType value();
+    
 }
