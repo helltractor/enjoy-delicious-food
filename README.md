@@ -1,5 +1,5 @@
 <p align="center">
-	<strong>精彩享受食</strong>
+	<strong>精彩享食</strong>
 </p>
 <p align="center">
     <a target="blank" href="https://github.com/Helltractor/enjoy-take-out">
@@ -21,3 +21,18 @@
     </a>
 </p>
 
+# Build container and compile dependencies（in Terminal）
+
+1. `mvn clean install`
+2. `cd ./enjoy-build`
+3. `docker-compose up --d`
+
+# Run application（in IntelliJ IDEA）
+
+1. run `EnjoyApplication.java`
+2. open `http://localhost/#/login` in browser
+
+# Next steps
+
+- [ ] 数据库无数据时，能够导出数据表格
+- [ ] 数据库主从复制，参考[使用docker-compose配置mysql主从备份](https://www.enjoytoday.cn/2024/01/11/%E4%BD%BF%E7%94%A8docker-compose%E9%85%8D%E7%BD%AEmysql%E4%B8%BB%E4%BB%8E%E5%A4%87%E4%BB%BD/)
