@@ -24,25 +24,19 @@
             #{description},</if>
             <if test="updateTime != null">update_time =
             #{updateTime},</if>
-            <if test="updateUser != null">update_user =
-            #{updateUser},</if>
-            <if test="status != null">status =
-            #{status},</if>
+            <if test="updateUser != null">update_user =#{updateUser},</if>
+            <if test="status != null">status =#{status},</if>
         </set>
         where id = #{id}
     </update>
 
     <select id="pageQuery" resultType="com.enjoy.vo.DishVO">
-        select d.*, c.name as categoryName from dish d left outer join category c on d.category_id = c.id
+        select d.*, c.name as categoryName from dish d
+        left outer join category c on d.category_id = c.id
         <where>
-            <if test="name != null"> and d.name like concat('%',
-            #{name},
-            '%'
-            ),</if>
-            <if test="categoryId != null"> and d.category_id =
-            #{categoryId},</if>
-            <if test="status != null"> and d.status =
-            #{status},</if>
+            <if test="name != null"> and d.name like concat('%', #{name}, '%')</if>
+            <if test="categoryId != null"> and d.category_id = #{categoryId}</if>
+            <if test="status != null"> and d.status = #{status}</if>
         </where>
         order by d.create_time desc
     </select>
@@ -50,20 +44,9 @@
     <select id="list" resultType="Dish" parameterType="Dish">
         select * from dish
         <where>
-            <if test="name != null">
-                and name like concat('%',
-                #{name},
-                '%'
-                )
-            </if>
-            <if test="categoryId != null">
-                and category_id =
-                #{categoryId}
-            </if>
-            <if test="status != null">
-                and status =
-                #{status}
-            </if>
+            <if test="name != null"> and name like concat('%', #{name}, '%')</if>
+            <if test="categoryId != null"> and category_id = #{categoryId}</if>
+            <if test="status != null"> and status = #{status}</if>
         </where>
         order by create_time desc
     </select>
@@ -71,14 +54,8 @@
     <select id="countByMap" resultType="java.lang.Integer">
         select count(id) from dish
         <where>
-            <if test="status != null">
-                and status =
-                #{status}
-            </if>
-            <if test="categoryId != null">
-                and category_id =
-                #{categoryId}
-            </if>
+            <if test="status != null"> and status = #{status}</if>
+            <if test="categoryId != null"> and category_id = #{categoryId}</if>
         </where>
     </select>
 </mapper>
