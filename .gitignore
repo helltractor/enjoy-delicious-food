@@ -7,3 +7,4 @@
 docker/
 logs/
 *.rdb
+!**/target/*.jar
