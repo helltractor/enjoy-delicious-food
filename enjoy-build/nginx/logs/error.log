@@ -1,0 +1,1406 @@
+2024/07/07 11:14:09 [error] 29#29: *1 "/html/enjoy/index.html" is not found (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/07/07 11:14:14 [error] 29#29: *2 "/html/enjoy/index.html" is not found (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/07/07 11:14:56 [error] 29#29: *4 "/html/enjoy/index.html" is not found (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/07/07 13:33:21 [notice] 1#1: using the "epoll" event method
+2024/07/07 13:33:21 [notice] 1#1: nginx/1.27.0
+2024/07/07 13:33:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/07 13:33:21 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/07 13:33:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/07 13:33:21 [notice] 1#1: start worker processes
+2024/07/07 13:33:21 [notice] 1#1: start worker process 29
+2024/07/07 13:33:21 [notice] 1#1: start worker process 30
+2024/07/07 13:33:21 [notice] 1#1: start worker process 31
+2024/07/07 13:33:21 [notice] 1#1: start worker process 32
+2024/07/07 13:33:21 [notice] 1#1: start worker process 33
+2024/07/07 13:33:21 [notice] 1#1: start worker process 34
+2024/07/07 13:33:21 [notice] 1#1: start worker process 35
+2024/07/07 13:33:21 [notice] 1#1: start worker process 36
+2024/07/07 13:33:21 [notice] 1#1: start worker process 37
+2024/07/07 13:33:21 [notice] 1#1: start worker process 38
+2024/07/07 13:33:21 [notice] 1#1: start worker process 39
+2024/07/07 13:33:21 [notice] 1#1: start worker process 40
+2024/07/07 13:33:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/07 13:33:39 [notice] 29#29: gracefully shutting down
+2024/07/07 13:33:39 [notice] 30#30: gracefully shutting down
+2024/07/07 13:33:39 [notice] 31#31: gracefully shutting down
+2024/07/07 13:33:39 [notice] 33#33: gracefully shutting down
+2024/07/07 13:33:39 [notice] 34#34: gracefully shutting down
+2024/07/07 13:33:39 [notice] 33#33: exiting
+2024/07/07 13:33:39 [notice] 32#32: gracefully shutting down
+2024/07/07 13:33:39 [notice] 33#33: exit
+2024/07/07 13:33:39 [notice] 36#36: gracefully shutting down
+2024/07/07 13:33:39 [notice] 37#37: gracefully shutting down
+2024/07/07 13:33:39 [notice] 38#38: gracefully shutting down
+2024/07/07 13:33:39 [notice] 35#35: gracefully shutting down
+2024/07/07 13:33:39 [notice] 40#40: gracefully shutting down
+2024/07/07 13:33:39 [notice] 39#39: gracefully shutting down
+2024/07/07 13:33:39 [notice] 29#29: exiting
+2024/07/07 13:33:39 [notice] 30#30: exiting
+2024/07/07 13:33:39 [notice] 31#31: exiting
+2024/07/07 13:33:39 [notice] 34#34: exiting
+2024/07/07 13:33:39 [notice] 32#32: exiting
+2024/07/07 13:33:39 [notice] 36#36: exiting
+2024/07/07 13:33:39 [notice] 32#32: exit
+2024/07/07 13:33:39 [notice] 37#37: exiting
+2024/07/07 13:33:39 [notice] 38#38: exiting
+2024/07/07 13:33:39 [notice] 35#35: exiting
+2024/07/07 13:33:39 [notice] 39#39: exiting
+2024/07/07 13:33:39 [notice] 29#29: exit
+2024/07/07 13:33:39 [notice] 40#40: exiting
+2024/07/07 13:33:39 [notice] 30#30: exit
+2024/07/07 13:33:39 [notice] 40#40: exit
+2024/07/07 13:33:39 [notice] 31#31: exit
+2024/07/07 13:33:39 [notice] 34#34: exit
+2024/07/07 13:33:39 [notice] 36#36: exit
+2024/07/07 13:33:39 [notice] 37#37: exit
+2024/07/07 13:33:39 [notice] 38#38: exit
+2024/07/07 13:33:39 [notice] 35#35: exit
+2024/07/07 13:33:39 [notice] 39#39: exit
+2024/07/07 13:33:39 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/07 13:33:39 [notice] 1#1: worker process 33 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:33:39 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2024/07/07 13:33:39 [notice] 1#1: worker process 30 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: worker process 31 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: worker process 32 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: worker process 34 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: worker process 35 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: worker process 39 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: worker process 40 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:33:39 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/07 13:33:39 [notice] 1#1: worker process 29 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: worker process 37 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:33:39 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/07/07 13:33:39 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/07/07 13:33:39 [notice] 1#1: worker process 36 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: worker process 38 exited with code 0
+2024/07/07 13:33:39 [notice] 1#1: exit
+2024/07/07 13:33:40 [notice] 1#1: using the "epoll" event method
+2024/07/07 13:33:40 [notice] 1#1: nginx/1.27.0
+2024/07/07 13:33:40 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/07 13:33:40 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/07 13:33:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/07 13:33:40 [notice] 1#1: start worker processes
+2024/07/07 13:33:40 [notice] 1#1: start worker process 22
+2024/07/07 13:33:40 [notice] 1#1: start worker process 23
+2024/07/07 13:33:40 [notice] 1#1: start worker process 24
+2024/07/07 13:33:40 [notice] 1#1: start worker process 25
+2024/07/07 13:33:40 [notice] 1#1: start worker process 26
+2024/07/07 13:33:40 [notice] 1#1: start worker process 27
+2024/07/07 13:33:40 [notice] 1#1: start worker process 28
+2024/07/07 13:33:40 [notice] 1#1: start worker process 29
+2024/07/07 13:33:40 [notice] 1#1: start worker process 30
+2024/07/07 13:33:40 [notice] 1#1: start worker process 31
+2024/07/07 13:33:40 [notice] 1#1: start worker process 32
+2024/07/07 13:33:40 [notice] 1#1: start worker process 33
+2024/07/07 13:34:50 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:34:50 [warn] 23#23: *1 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:34:50 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:34:50 [warn] 23#23: *1 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:38:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/07 13:38:25 [notice] 23#23: gracefully shutting down
+2024/07/07 13:38:25 [notice] 22#22: gracefully shutting down
+2024/07/07 13:38:25 [notice] 24#24: gracefully shutting down
+2024/07/07 13:38:25 [notice] 26#26: gracefully shutting down
+2024/07/07 13:38:25 [notice] 27#27: gracefully shutting down
+2024/07/07 13:38:25 [notice] 28#28: gracefully shutting down
+2024/07/07 13:38:25 [notice] 30#30: gracefully shutting down
+2024/07/07 13:38:25 [notice] 31#31: gracefully shutting down
+2024/07/07 13:38:25 [notice] 32#32: gracefully shutting down
+2024/07/07 13:38:25 [notice] 33#33: gracefully shutting down
+2024/07/07 13:38:25 [notice] 25#25: gracefully shutting down
+2024/07/07 13:38:25 [notice] 29#29: gracefully shutting down
+2024/07/07 13:38:25 [notice] 23#23: exiting
+2024/07/07 13:38:25 [notice] 22#22: exiting
+2024/07/07 13:38:25 [notice] 26#26: exiting
+2024/07/07 13:38:25 [notice] 28#28: exiting
+2024/07/07 13:38:25 [notice] 24#24: exiting
+2024/07/07 13:38:25 [notice] 33#33: exiting
+2024/07/07 13:38:25 [notice] 31#31: exiting
+2024/07/07 13:38:25 [notice] 32#32: exiting
+2024/07/07 13:38:25 [notice] 27#27: exiting
+2024/07/07 13:38:25 [notice] 30#30: exiting
+2024/07/07 13:38:25 [notice] 26#26: exit
+2024/07/07 13:38:25 [notice] 27#27: exit
+2024/07/07 13:38:25 [notice] 28#28: exit
+2024/07/07 13:38:25 [notice] 22#22: exit
+2024/07/07 13:38:25 [notice] 23#23: exit
+2024/07/07 13:38:25 [notice] 24#24: exit
+2024/07/07 13:38:25 [notice] 25#25: exiting
+2024/07/07 13:38:25 [notice] 33#33: exit
+2024/07/07 13:38:25 [notice] 29#29: exiting
+2024/07/07 13:38:25 [notice] 31#31: exit
+2024/07/07 13:38:25 [notice] 32#32: exit
+2024/07/07 13:38:25 [notice] 30#30: exit
+2024/07/07 13:38:25 [notice] 25#25: exit
+2024/07/07 13:38:25 [notice] 29#29: exit
+2024/07/07 13:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/07 13:38:25 [notice] 1#1: worker process 30 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/07 13:38:25 [notice] 1#1: worker process 29 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: worker process 31 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: worker process 33 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/07 13:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/07 13:38:25 [notice] 1#1: worker process 22 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: worker process 23 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: worker process 25 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: worker process 26 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: worker process 27 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/07 13:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/07 13:38:25 [notice] 1#1: worker process 28 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: worker process 32 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/07/07 13:38:25 [notice] 1#1: worker process 24 exited with code 0
+2024/07/07 13:38:25 [notice] 1#1: exit
+2024/07/07 13:38:32 [notice] 1#1: using the "epoll" event method
+2024/07/07 13:38:32 [notice] 1#1: nginx/1.27.0
+2024/07/07 13:38:32 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/07 13:38:32 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/07 13:38:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/07 13:38:32 [notice] 1#1: start worker processes
+2024/07/07 13:38:32 [notice] 1#1: start worker process 22
+2024/07/07 13:38:32 [notice] 1#1: start worker process 23
+2024/07/07 13:38:32 [notice] 1#1: start worker process 24
+2024/07/07 13:38:32 [notice] 1#1: start worker process 25
+2024/07/07 13:38:32 [notice] 1#1: start worker process 26
+2024/07/07 13:38:32 [notice] 1#1: start worker process 27
+2024/07/07 13:38:32 [notice] 1#1: start worker process 28
+2024/07/07 13:38:32 [notice] 1#1: start worker process 29
+2024/07/07 13:38:32 [notice] 1#1: start worker process 30
+2024/07/07 13:38:32 [notice] 1#1: start worker process 31
+2024/07/07 13:38:32 [notice] 1#1: start worker process 32
+2024/07/07 13:38:32 [notice] 1#1: start worker process 33
+2024/07/07 13:38:42 [error] 26#26: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:38:43 [error] 26#26: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:39:04 [error] 25#25: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:39:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/07 13:39:30 [notice] 23#23: gracefully shutting down
+2024/07/07 13:39:30 [notice] 29#29: gracefully shutting down
+2024/07/07 13:39:30 [notice] 25#25: gracefully shutting down
+2024/07/07 13:39:30 [notice] 22#22: gracefully shutting down
+2024/07/07 13:39:30 [notice] 24#24: gracefully shutting down
+2024/07/07 13:39:30 [notice] 27#27: gracefully shutting down
+2024/07/07 13:39:30 [notice] 32#32: gracefully shutting down
+2024/07/07 13:39:30 [notice] 26#26: gracefully shutting down
+2024/07/07 13:39:30 [notice] 32#32: exiting
+2024/07/07 13:39:30 [notice] 28#28: gracefully shutting down
+2024/07/07 13:39:30 [notice] 32#32: exit
+2024/07/07 13:39:30 [notice] 31#31: gracefully shutting down
+2024/07/07 13:39:30 [notice] 33#33: gracefully shutting down
+2024/07/07 13:39:30 [notice] 31#31: exiting
+2024/07/07 13:39:30 [notice] 30#30: gracefully shutting down
+2024/07/07 13:39:30 [notice] 29#29: exiting
+2024/07/07 13:39:30 [notice] 30#30: exiting
+2024/07/07 13:39:30 [notice] 25#25: exiting
+2024/07/07 13:39:30 [notice] 24#24: exiting
+2024/07/07 13:39:30 [notice] 22#22: exiting
+2024/07/07 13:39:30 [notice] 27#27: exiting
+2024/07/07 13:39:30 [notice] 26#26: exiting
+2024/07/07 13:39:30 [notice] 28#28: exiting
+2024/07/07 13:39:30 [notice] 31#31: exit
+2024/07/07 13:39:30 [notice] 33#33: exiting
+2024/07/07 13:39:30 [notice] 29#29: exit
+2024/07/07 13:39:30 [notice] 30#30: exit
+2024/07/07 13:39:30 [notice] 25#25: exit
+2024/07/07 13:39:30 [notice] 24#24: exit
+2024/07/07 13:39:30 [notice] 22#22: exit
+2024/07/07 13:39:30 [notice] 27#27: exit
+2024/07/07 13:39:30 [notice] 26#26: exit
+2024/07/07 13:39:30 [notice] 28#28: exit
+2024/07/07 13:39:30 [notice] 33#33: exit
+2024/07/07 13:39:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/07/07 13:39:30 [notice] 1#1: worker process 22 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: worker process 24 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: worker process 26 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: worker process 27 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: worker process 28 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: worker process 30 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: worker process 32 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:39:30 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/07 13:39:30 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/07 13:39:30 [notice] 1#1: worker process 25 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: worker process 33 exited with code 0
+2024/07/07 13:39:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:39:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/07/07 13:39:31 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/07 13:39:31 [notice] 1#1: worker process 29 exited with code 0
+2024/07/07 13:39:31 [notice] 1#1: worker process 31 exited with code 0
+2024/07/07 13:39:31 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:39:31 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/07 13:39:47 [notice] 1#1: using the "epoll" event method
+2024/07/07 13:39:47 [notice] 1#1: nginx/1.27.0
+2024/07/07 13:39:47 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/07 13:39:47 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/07 13:39:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/07 13:39:47 [notice] 1#1: start worker processes
+2024/07/07 13:39:47 [notice] 1#1: start worker process 22
+2024/07/07 13:39:47 [notice] 1#1: start worker process 23
+2024/07/07 13:39:47 [notice] 1#1: start worker process 24
+2024/07/07 13:39:47 [notice] 1#1: start worker process 25
+2024/07/07 13:39:47 [notice] 1#1: start worker process 26
+2024/07/07 13:39:47 [notice] 1#1: start worker process 27
+2024/07/07 13:39:47 [notice] 1#1: start worker process 28
+2024/07/07 13:39:47 [notice] 1#1: start worker process 29
+2024/07/07 13:39:47 [notice] 1#1: start worker process 30
+2024/07/07 13:39:47 [notice] 1#1: start worker process 31
+2024/07/07 13:39:47 [notice] 1#1: start worker process 32
+2024/07/07 13:39:47 [notice] 1#1: start worker process 33
+2024/07/07 13:39:49 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:39:52 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:44:15 [error] 25#25: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:44:41 [error] 28#28: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /ws/tkwhq2xhw7 HTTP/1.1", upstream: "http://127.0.0.1:8080/ws/tkwhq2xhw7", host: "localhost"
+2024/07/07 13:44:41 [error] 27#27: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:41 [error] 26#26: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/workspace/businessData HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/workspace/businessData", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:41 [error] 30#30: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/workspace/overviewOrders HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/workspace/overviewOrders", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:41 [error] 31#31: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/workspace/overviewDishes HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/workspace/overviewDishes", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:41 [error] 27#27: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/order/conditionSearch?page=1&pageSize=10&status=2 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/order/conditionSearch?page=1&pageSize=10&status=2", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:41 [error] 29#29: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/workspace/overviewSetmeals HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/workspace/overviewSetmeals", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:46 [error] 23#23: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /ws/cu367iv6kl9 HTTP/1.1", upstream: "http://127.0.0.1:8080/ws/cu367iv6kl9", host: "localhost"
+2024/07/07 13:44:46 [error] 33#33: *24 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:46 [error] 33#33: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/order/conditionSearch?page=1&pageSize=10&status=2 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/order/conditionSearch?page=1&pageSize=10&status=2", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:46 [error] 23#23: *29 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/workspace/businessData HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/workspace/businessData", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:46 [error] 25#25: *32 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/workspace/overviewDishes HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/workspace/overviewDishes", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:46 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/workspace/overviewSetmeals HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/workspace/overviewSetmeals", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:46 [error] 22#22: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/workspace/overviewOrders HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/workspace/overviewOrders", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:52 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:44:57 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:06 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:11 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:12 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:12 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:12 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:24 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:26 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:26 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:26 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:26 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:27 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:46 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:45:48 [error] 22#22: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:46:17 [error] 23#23: *52 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:46:27 [error] 23#23: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:46:28 [error] 23#23: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 13:46:31 [error] 23#23: *54 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/", host: "localhost"
+2024/07/07 13:46:34 [error] 23#23: *59 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:46:42 [error] 23#23: *59 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 13:49:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/07 13:49:22 [notice] 27#27: gracefully shutting down
+2024/07/07 13:49:22 [notice] 25#25: gracefully shutting down
+2024/07/07 13:49:22 [notice] 23#23: gracefully shutting down
+2024/07/07 13:49:22 [notice] 24#24: gracefully shutting down
+2024/07/07 13:49:22 [notice] 28#28: gracefully shutting down
+2024/07/07 13:49:22 [notice] 22#22: gracefully shutting down
+2024/07/07 13:49:22 [notice] 31#31: gracefully shutting down
+2024/07/07 13:49:22 [notice] 33#33: gracefully shutting down
+2024/07/07 13:49:22 [notice] 29#29: gracefully shutting down
+2024/07/07 13:49:22 [notice] 30#30: gracefully shutting down
+2024/07/07 13:49:22 [notice] 26#26: gracefully shutting down
+2024/07/07 13:49:22 [notice] 32#32: gracefully shutting down
+2024/07/07 13:49:22 [notice] 27#27: exiting
+2024/07/07 13:49:22 [notice] 25#25: exiting
+2024/07/07 13:49:22 [notice] 24#24: exiting
+2024/07/07 13:49:22 [notice] 31#31: exiting
+2024/07/07 13:49:22 [notice] 28#28: exiting
+2024/07/07 13:49:22 [notice] 23#23: exiting
+2024/07/07 13:49:22 [notice] 22#22: exiting
+2024/07/07 13:49:22 [notice] 29#29: exiting
+2024/07/07 13:49:22 [notice] 33#33: exiting
+2024/07/07 13:49:22 [notice] 23#23: exit
+2024/07/07 13:49:22 [notice] 30#30: exiting
+2024/07/07 13:49:22 [notice] 26#26: exiting
+2024/07/07 13:49:22 [notice] 32#32: exiting
+2024/07/07 13:49:22 [notice] 24#24: exit
+2024/07/07 13:49:22 [notice] 31#31: exit
+2024/07/07 13:49:22 [notice] 28#28: exit
+2024/07/07 13:49:22 [notice] 27#27: exit
+2024/07/07 13:49:22 [notice] 32#32: exit
+2024/07/07 13:49:22 [notice] 25#25: exit
+2024/07/07 13:49:22 [notice] 22#22: exit
+2024/07/07 13:49:22 [notice] 29#29: exit
+2024/07/07 13:49:22 [notice] 33#33: exit
+2024/07/07 13:49:22 [notice] 30#30: exit
+2024/07/07 13:49:22 [notice] 26#26: exit
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/07/07 13:49:22 [notice] 1#1: worker process 26 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/07/07 13:49:22 [notice] 1#1: worker process 23 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: worker process 28 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: worker process 31 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: worker process 33 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/07 13:49:22 [notice] 1#1: worker process 22 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: worker process 24 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/07/07 13:49:22 [notice] 1#1: worker process 25 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/07/07 13:49:22 [notice] 1#1: worker process 27 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: worker process 30 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: worker process 32 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/07 13:49:22 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/07 13:49:22 [notice] 1#1: worker process 29 exited with code 0
+2024/07/07 13:49:22 [notice] 1#1: exit
+2024/07/07 13:49:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:49:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:49:28 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:49:29 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:49:30 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:49:32 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:49:35 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:49:42 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:49:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:50:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:51:16 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:52:19 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:53:22 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:54:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:55:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:56:29 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:03 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:03 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:07 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:09 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:12 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:19 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:57:33 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:58:00 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:58:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:18 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:19 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:20 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:20 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:22 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:24 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:35 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 13:59:48 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:00:15 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:01:09 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:02:11 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:03:14 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:04:16 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:05:19 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:06:21 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:07:24 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:08:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:09:29 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:10:32 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:11:34 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:12:37 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:24 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:24 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:29 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:33 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:41 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:13:54 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:14:21 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:15:15 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:16:18 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:17:20 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:28 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:30 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:35 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:41 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:18:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:19:22 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:20:16 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:21:18 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:22:21 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:23:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:24:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:25:28 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:26:31 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:27:35 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:28:37 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:29:40 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:30:42 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:10 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:10 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:11 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:13 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:14 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:16 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:19 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:21 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:22 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:24 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:32 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:39 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:31:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:32:20 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:33:13 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:33:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:33:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:33:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:33:58 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:33:59 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:01 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:03 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:04 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:06 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:07 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:09 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:13 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:21 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:34:34 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:35:01 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:35:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:36:58 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:38:00 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:39:03 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:14 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:15 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:16 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:17 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:18 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:20 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:28 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:29 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:31 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:35 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:42 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:40:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:41:22 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:42:16 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:07 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:08 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:10 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:11 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:12 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:14 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:18 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:43:38 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:44:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:44:59 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:02 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:47 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:48 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:52 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:46:59 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:47:01 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:47:04 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:47:11 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:47:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:47:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:48:45 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:49:48 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:50:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:51:54 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:52:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:52:50 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:52:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:52:52 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:52:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:52:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:52:58 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:00 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:02 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:03 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:04 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:07 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:11 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:18 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:31 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:53:58 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:21 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:21 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:22 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:24 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:30 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:38 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:55:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:56:18 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:57:12 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:58:15 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 14:59:17 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:00:20 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:01:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:02:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:03:28 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:04:31 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:05:34 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:06:37 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:07:40 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:08:43 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:09:46 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:10:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:11:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:12:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:13:59 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:15:02 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:16:04 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:17:08 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:18:10 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:18:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:18:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:18:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:18:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:18:58 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:02 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:03 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:04 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:06 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:07 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:09 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:13 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:20 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:19:35 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:20:00 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:20:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:21:58 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:23:03 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:24:06 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:25:08 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:26:11 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:27:14 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:17 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:35 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:36 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:36 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:37 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:39 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:41 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:45 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:52 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:58 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:28:59 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:29:02 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:29:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:29:12 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:29:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:29:52 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:30:47 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:31:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:36:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:36:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:36:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:36:58 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:37:00 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:37:02 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:37:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:37:12 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:37:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:37:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:38:43 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:39:43 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:40:44 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:41:45 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:42:45 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:43:46 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:44:46 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:45:47 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:46:47 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:47:48 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:48:48 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:49:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:50:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:51:50 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:52:50 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:53:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:54:52 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:55:52 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:56:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:57:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:58:54 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 15:59:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:00:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:27 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:28 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:29 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:30 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:31 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:33 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:36 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:43 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:01:56 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:43 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:43 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:44 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:45 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:46 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:48 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:02:59 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:04 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:05 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:48 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:50 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:50 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:03:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:04 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:17 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:22 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:23 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:24 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:25 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:26 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:28 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:31 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:38 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:04:51 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:05:17 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:55
+2024/07/07 16:05:51 [notice] 1#1: using the "epoll" event method
+2024/07/07 16:05:51 [notice] 1#1: nginx/1.27.0
+2024/07/07 16:05:51 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/07 16:05:51 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/07 16:05:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/07 16:05:51 [notice] 1#1: start worker processes
+2024/07/07 16:05:51 [notice] 1#1: start worker process 29
+2024/07/07 16:05:51 [notice] 1#1: start worker process 30
+2024/07/07 16:05:51 [notice] 1#1: start worker process 31
+2024/07/07 16:05:51 [notice] 1#1: start worker process 32
+2024/07/07 16:05:51 [notice] 1#1: start worker process 33
+2024/07/07 16:05:51 [notice] 1#1: start worker process 34
+2024/07/07 16:05:51 [notice] 1#1: start worker process 35
+2024/07/07 16:05:51 [notice] 1#1: start worker process 36
+2024/07/07 16:05:51 [notice] 1#1: start worker process 37
+2024/07/07 16:05:51 [notice] 1#1: start worker process 38
+2024/07/07 16:05:51 [notice] 1#1: start worker process 39
+2024/07/07 16:05:51 [notice] 1#1: start worker process 40
+2024/07/07 16:05:57 [error] 30#30: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /ws/wjmoalr3wbj HTTP/1.1", upstream: "http://127.0.0.1:8080/ws/wjmoalr3wbj", host: "localhost"
+2024/07/07 16:05:57 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [warn] 31#31: *2 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [warn] 29#29: *1 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [warn] 31#31: *2 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [warn] 29#29: *1 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [error] 32#32: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [warn] 32#32: *9 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [error] 32#32: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:57 [warn] 32#32: *9 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:58 [error] 33#33: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /ws/lhpmi2kxxq HTTP/1.1", upstream: "http://127.0.0.1:8080/ws/lhpmi2kxxq", host: "localhost"
+2024/07/07 16:05:58 [error] 32#32: *9 no live upstreams while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://localhost/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:58 [error] 31#31: *2 no live upstreams while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://localhost/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:05:58 [error] 29#29: *1 no live upstreams while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://localhost/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [error] 36#36: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /ws/vtvgg6ju5pp HTTP/1.1", upstream: "http://127.0.0.1:8080/ws/vtvgg6ju5pp", host: "localhost"
+2024/07/07 16:06:02 [error] 34#34: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [error] 35#35: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [warn] 35#35: *15 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [warn] 34#34: *14 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [error] 35#35: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [warn] 35#35: *15 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [error] 34#34: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [warn] 34#34: *14 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [error] 37#37: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [warn] 37#37: *22 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [error] 37#37: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:02 [warn] 37#37: *22 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:25 [error] 40#40: *27 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /ws/gfnna6rikrn HTTP/1.1", upstream: "http://127.0.0.1:8080/ws/gfnna6rikrn", host: "localhost"
+2024/07/07 16:06:27 [error] 38#38: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:27 [warn] 38#38: *25 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:27 [error] 38#38: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:27 [warn] 38#38: *25 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:39 [error] 29#29: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:39 [warn] 29#29: *31 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:39 [error] 29#29: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:39 [warn] 29#29: *31 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:51 [error] 29#29: *36 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:51 [warn] 29#29: *36 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:51 [error] 29#29: *36 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:51 [warn] 29#29: *36 upstream server temporarily disabled while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:53 [error] 29#29: *36 no live upstreams while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://localhost/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:53 [error] 29#29: *36 no live upstreams while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://localhost/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:06:58 [error] 29#29: *36 no live upstreams while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://localhost/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:07:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/07 16:07:19 [notice] 29#29: gracefully shutting down
+2024/07/07 16:07:19 [notice] 31#31: gracefully shutting down
+2024/07/07 16:07:19 [notice] 30#30: gracefully shutting down
+2024/07/07 16:07:19 [notice] 32#32: gracefully shutting down
+2024/07/07 16:07:19 [notice] 33#33: gracefully shutting down
+2024/07/07 16:07:19 [notice] 34#34: gracefully shutting down
+2024/07/07 16:07:19 [notice] 35#35: gracefully shutting down
+2024/07/07 16:07:19 [notice] 37#37: gracefully shutting down
+2024/07/07 16:07:19 [notice] 38#38: gracefully shutting down
+2024/07/07 16:07:19 [notice] 36#36: gracefully shutting down
+2024/07/07 16:07:19 [notice] 39#39: gracefully shutting down
+2024/07/07 16:07:19 [notice] 40#40: gracefully shutting down
+2024/07/07 16:07:19 [notice] 29#29: exiting
+2024/07/07 16:07:19 [notice] 31#31: exiting
+2024/07/07 16:07:19 [notice] 30#30: exiting
+2024/07/07 16:07:19 [notice] 32#32: exiting
+2024/07/07 16:07:19 [notice] 33#33: exiting
+2024/07/07 16:07:19 [notice] 34#34: exiting
+2024/07/07 16:07:19 [notice] 35#35: exiting
+2024/07/07 16:07:19 [notice] 37#37: exiting
+2024/07/07 16:07:19 [notice] 38#38: exiting
+2024/07/07 16:07:19 [notice] 36#36: exiting
+2024/07/07 16:07:19 [notice] 39#39: exiting
+2024/07/07 16:07:19 [notice] 40#40: exiting
+2024/07/07 16:07:19 [notice] 29#29: exit
+2024/07/07 16:07:19 [notice] 31#31: exit
+2024/07/07 16:07:19 [notice] 30#30: exit
+2024/07/07 16:07:19 [notice] 32#32: exit
+2024/07/07 16:07:19 [notice] 33#33: exit
+2024/07/07 16:07:19 [notice] 34#34: exit
+2024/07/07 16:07:19 [notice] 35#35: exit
+2024/07/07 16:07:19 [notice] 37#37: exit
+2024/07/07 16:07:19 [notice] 38#38: exit
+2024/07/07 16:07:19 [notice] 36#36: exit
+2024/07/07 16:07:19 [notice] 39#39: exit
+2024/07/07 16:07:19 [notice] 40#40: exit
+2024/07/07 16:07:19 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/07/07 16:07:19 [notice] 1#1: worker process 31 exited with code 0
+2024/07/07 16:07:19 [notice] 1#1: worker process 32 exited with code 0
+2024/07/07 16:07:19 [notice] 1#1: worker process 35 exited with code 0
+2024/07/07 16:07:19 [notice] 1#1: worker process 36 exited with code 0
+2024/07/07 16:07:19 [notice] 1#1: worker process 39 exited with code 0
+2024/07/07 16:07:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 16:07:19 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/07 16:07:20 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/07 16:07:20 [notice] 1#1: worker process 30 exited with code 0
+2024/07/07 16:07:20 [notice] 1#1: worker process 33 exited with code 0
+2024/07/07 16:07:20 [notice] 1#1: worker process 37 exited with code 0
+2024/07/07 16:07:20 [notice] 1#1: worker process 40 exited with code 0
+2024/07/07 16:07:20 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 16:07:20 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/07/07 16:07:20 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/07/07 16:07:20 [notice] 1#1: worker process 29 exited with code 0
+2024/07/07 16:07:20 [notice] 1#1: worker process 34 exited with code 0
+2024/07/07 16:07:20 [notice] 1#1: worker process 38 exited with code 0
+2024/07/07 16:07:20 [notice] 1#1: exit
+2024/07/07 16:07:20 [notice] 1#1: using the "epoll" event method
+2024/07/07 16:07:20 [notice] 1#1: nginx/1.27.0
+2024/07/07 16:07:20 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/07 16:07:20 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/07 16:07:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/07 16:07:20 [notice] 1#1: start worker processes
+2024/07/07 16:07:20 [notice] 1#1: start worker process 22
+2024/07/07 16:07:20 [notice] 1#1: start worker process 23
+2024/07/07 16:07:20 [notice] 1#1: start worker process 24
+2024/07/07 16:07:20 [notice] 1#1: start worker process 25
+2024/07/07 16:07:20 [notice] 1#1: start worker process 26
+2024/07/07 16:07:20 [notice] 1#1: start worker process 27
+2024/07/07 16:07:20 [notice] 1#1: start worker process 28
+2024/07/07 16:07:20 [notice] 1#1: start worker process 29
+2024/07/07 16:07:20 [notice] 1#1: start worker process 30
+2024/07/07 16:07:20 [notice] 1#1: start worker process 31
+2024/07/07 16:07:20 [notice] 1#1: start worker process 32
+2024/07/07 16:07:20 [notice] 1#1: start worker process 33
+2024/07/07 16:07:27 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:07:27 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:07:28 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:07:28 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:08:23 [error] 23#23: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:08:24 [error] 23#23: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:08:24 [error] 23#23: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:08:24 [error] 23#23: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:08:40 [error] 25#25: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:08:41 [error] 25#25: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:08:41 [error] 25#25: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:08:58 [error] 26#26: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:09:17 [error] 28#28: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 16:09:36 [error] 29#29: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 16:10:13 [error] 30#30: *25 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 16:11:05 [error] 32#32: *28 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:11:38 [error] 33#33: *30 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost"
+2024/07/07 16:15:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/07 16:15:48 [notice] 22#22: gracefully shutting down
+2024/07/07 16:15:48 [notice] 26#26: gracefully shutting down
+2024/07/07 16:15:48 [notice] 27#27: gracefully shutting down
+2024/07/07 16:15:48 [notice] 25#25: gracefully shutting down
+2024/07/07 16:15:48 [notice] 28#28: gracefully shutting down
+2024/07/07 16:15:48 [notice] 30#30: gracefully shutting down
+2024/07/07 16:15:48 [notice] 29#29: gracefully shutting down
+2024/07/07 16:15:48 [notice] 31#31: gracefully shutting down
+2024/07/07 16:15:48 [notice] 32#32: gracefully shutting down
+2024/07/07 16:15:48 [notice] 33#33: gracefully shutting down
+2024/07/07 16:15:48 [notice] 24#24: gracefully shutting down
+2024/07/07 16:15:48 [notice] 23#23: gracefully shutting down
+2024/07/07 16:15:48 [notice] 22#22: exiting
+2024/07/07 16:15:48 [notice] 26#26: exiting
+2024/07/07 16:15:48 [notice] 27#27: exiting
+2024/07/07 16:15:48 [notice] 25#25: exiting
+2024/07/07 16:15:48 [notice] 32#32: exiting
+2024/07/07 16:15:48 [notice] 28#28: exiting
+2024/07/07 16:15:48 [notice] 30#30: exiting
+2024/07/07 16:15:48 [notice] 29#29: exiting
+2024/07/07 16:15:48 [notice] 31#31: exiting
+2024/07/07 16:15:48 [notice] 29#29: exit
+2024/07/07 16:15:48 [notice] 33#33: exiting
+2024/07/07 16:15:48 [notice] 26#26: exit
+2024/07/07 16:15:48 [notice] 25#25: exit
+2024/07/07 16:15:48 [notice] 22#22: exit
+2024/07/07 16:15:48 [notice] 32#32: exit
+2024/07/07 16:15:48 [notice] 27#27: exit
+2024/07/07 16:15:48 [notice] 24#24: exiting
+2024/07/07 16:15:48 [notice] 30#30: exit
+2024/07/07 16:15:48 [notice] 23#23: exiting
+2024/07/07 16:15:48 [notice] 28#28: exit
+2024/07/07 16:15:48 [notice] 31#31: exit
+2024/07/07 16:15:48 [notice] 33#33: exit
+2024/07/07 16:15:48 [notice] 24#24: exit
+2024/07/07 16:15:48 [notice] 23#23: exit
+2024/07/07 16:15:48 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/07 16:15:48 [notice] 1#1: worker process 22 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 23 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 25 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 26 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 29 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 30 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 31 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 32 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 33 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 16:15:48 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/07 16:15:48 [notice] 1#1: worker process 24 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: worker process 28 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/07 16:15:48 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/07/07 16:15:48 [notice] 1#1: worker process 27 exited with code 0
+2024/07/07 16:15:48 [notice] 1#1: exit
+2024/07/07 16:15:49 [notice] 1#1: using the "epoll" event method
+2024/07/07 16:15:49 [notice] 1#1: nginx/1.27.0
+2024/07/07 16:15:49 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/07 16:15:49 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/07 16:15:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/07 16:15:49 [notice] 1#1: start worker processes
+2024/07/07 16:15:49 [notice] 1#1: start worker process 22
+2024/07/07 16:15:49 [notice] 1#1: start worker process 23
+2024/07/07 16:15:49 [notice] 1#1: start worker process 24
+2024/07/07 16:15:49 [notice] 1#1: start worker process 25
+2024/07/07 16:15:49 [notice] 1#1: start worker process 26
+2024/07/07 16:15:49 [notice] 1#1: start worker process 27
+2024/07/07 16:15:49 [notice] 1#1: start worker process 28
+2024/07/07 16:15:49 [notice] 1#1: start worker process 29
+2024/07/07 16:15:49 [notice] 1#1: start worker process 30
+2024/07/07 16:15:49 [notice] 1#1: start worker process 31
+2024/07/07 16:15:49 [notice] 1#1: start worker process 32
+2024/07/07 16:15:49 [notice] 1#1: start worker process 33
+2024/07/07 16:43:47 [error] 27#27: *204 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /ws/dg2nspp73t HTTP/1.1", upstream: "http://192.168.65.254:8080/ws/dg2nspp73t", host: "localhost"
+2024/07/07 16:43:47 [error] 27#27: *203 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/order/conditionSearch?page=1&pageSize=10&status=2 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/order/conditionSearch?page=1&pageSize=10&status=2", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:47 [error] 26#26: *208 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/workspace/businessData HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/workspace/businessData", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:47 [error] 27#27: *202 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/shop/status HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/shop/status", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:47 [error] 26#26: *210 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/workspace/overviewOrders HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/workspace/overviewOrders", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:47 [error] 26#26: *212 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/workspace/overviewDishes HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/workspace/overviewDishes", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:47 [error] 27#27: *214 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/workspace/overviewSetmeals HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/workspace/overviewSetmeals", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:51 [error] 27#27: *216 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/report/userStatistics?begin=2024-07-01&end=2024-07-07 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/report/userStatistics?begin=2024-07-01&end=2024-07-07", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:51 [error] 26#26: *222 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/report/top10?begin=2024-07-01&end=2024-07-07 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/report/top10?begin=2024-07-01&end=2024-07-07", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:51 [error] 27#27: *218 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/report/turnoverStatistics?begin=2024-07-01&end=2024-07-07 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/report/turnoverStatistics?begin=2024-07-01&end=2024-07-07", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:51 [error] 27#27: *220 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/report/ordersStatistics?begin=2024-07-01&end=2024-07-07 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/report/ordersStatistics?begin=2024-07-01&end=2024-07-07", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:52 [error] 26#26: *222 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/setmeal/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/setmeal/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:52 [error] 27#27: *220 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=2 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=2", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:54 [error] 27#27: *220 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/07 16:43:54 [error] 26#26: *222 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:13:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 02:13:28 [notice] 22#22: gracefully shutting down
+2024/07/08 02:13:28 [notice] 24#24: gracefully shutting down
+2024/07/08 02:13:28 [notice] 23#23: gracefully shutting down
+2024/07/08 02:13:28 [notice] 25#25: gracefully shutting down
+2024/07/08 02:13:28 [notice] 26#26: gracefully shutting down
+2024/07/08 02:13:28 [notice] 24#24: exiting
+2024/07/08 02:13:28 [notice] 22#22: exiting
+2024/07/08 02:13:28 [notice] 23#23: exiting
+2024/07/08 02:13:28 [notice] 26#26: exiting
+2024/07/08 02:13:28 [notice] 27#27: gracefully shutting down
+2024/07/08 02:13:28 [notice] 29#29: gracefully shutting down
+2024/07/08 02:13:28 [notice] 26#26: exit
+2024/07/08 02:13:28 [notice] 31#31: gracefully shutting down
+2024/07/08 02:13:28 [notice] 29#29: exiting
+2024/07/08 02:13:28 [notice] 33#33: gracefully shutting down
+2024/07/08 02:13:28 [notice] 29#29: exit
+2024/07/08 02:13:28 [notice] 25#25: exiting
+2024/07/08 02:13:28 [notice] 31#31: exiting
+2024/07/08 02:13:28 [notice] 23#23: exit
+2024/07/08 02:13:28 [notice] 32#32: gracefully shutting down
+2024/07/08 02:13:28 [notice] 22#22: exit
+2024/07/08 02:13:28 [notice] 31#31: exit
+2024/07/08 02:13:28 [notice] 32#32: exiting
+2024/07/08 02:13:28 [notice] 32#32: exit
+2024/07/08 02:13:28 [notice] 30#30: gracefully shutting down
+2024/07/08 02:13:28 [notice] 28#28: gracefully shutting down
+2024/07/08 02:13:28 [notice] 24#24: exit
+2024/07/08 02:13:28 [notice] 30#30: exiting
+2024/07/08 02:13:28 [notice] 33#33: exiting
+2024/07/08 02:13:28 [notice] 25#25: exit
+2024/07/08 02:13:28 [notice] 28#28: exiting
+2024/07/08 02:13:28 [notice] 30#30: exit
+2024/07/08 02:13:28 [notice] 33#33: exit
+2024/07/08 02:13:28 [notice] 28#28: exit
+2024/07/08 02:13:28 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 02:13:28 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: worker process 25 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:13:28 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 02:13:28 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/07/08 02:13:28 [notice] 1#1: worker process 24 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: worker process 28 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: worker process 26 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: worker process 29 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:13:28 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 02:13:28 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 02:13:28 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 02:13:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:13:41 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:13:41 [notice] 1#1: nginx/1.27.0
+2024/07/08 02:13:41 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/08 02:13:41 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/08 02:13:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 02:13:41 [notice] 1#1: start worker processes
+2024/07/08 02:13:41 [notice] 1#1: start worker process 29
+2024/07/08 02:13:41 [notice] 1#1: start worker process 30
+2024/07/08 02:13:41 [notice] 1#1: start worker process 31
+2024/07/08 02:13:41 [notice] 1#1: start worker process 32
+2024/07/08 02:13:41 [notice] 1#1: start worker process 33
+2024/07/08 02:13:41 [notice] 1#1: start worker process 34
+2024/07/08 02:13:41 [notice] 1#1: start worker process 35
+2024/07/08 02:13:41 [notice] 1#1: start worker process 36
+2024/07/08 02:13:41 [notice] 1#1: start worker process 37
+2024/07/08 02:13:41 [notice] 1#1: start worker process 38
+2024/07/08 02:13:41 [notice] 1#1: start worker process 39
+2024/07/08 02:13:41 [notice] 1#1: start worker process 40
+2024/07/08 02:16:24 [error] 30#30: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/page?page=1&pageSize=10 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/employee/page?page=1&pageSize=10", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:17:31 [error] 35#35: *11 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:17:31 [error] 37#37: *15 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:22:42 [error] 29#29: *19 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:22:42 [error] 39#39: *20 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:22:45 [error] 30#30: *25 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/setmeal/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/setmeal/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:22:45 [error] 30#30: *28 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=2 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=2", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:24:53 [error] 30#30: *35 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:24:53 [error] 30#30: *34 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:28:15 [error] 30#30: *40 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:28:15 [error] 31#31: *41 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:28:19 [error] 30#30: *48 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/page?page=1&pageSize=10 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/page?page=1&pageSize=10", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:35:52 [error] 31#31: *51 upstream prematurely closed connection while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/page?page=1&pageSize=10 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/page?page=1&pageSize=10", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:35:52 [error] 30#30: *50 upstream prematurely closed connection while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/employee/page?page=1&pageSize=10 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/employee/page?page=1&pageSize=10", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:37:39 [error] 30#30: *57 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:38:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 02:38:40 [notice] 30#30: gracefully shutting down
+2024/07/08 02:38:40 [notice] 31#31: gracefully shutting down
+2024/07/08 02:38:40 [notice] 30#30: exiting
+2024/07/08 02:38:40 [notice] 29#29: gracefully shutting down
+2024/07/08 02:38:40 [notice] 36#36: gracefully shutting down
+2024/07/08 02:38:40 [notice] 32#32: gracefully shutting down
+2024/07/08 02:38:40 [notice] 37#37: gracefully shutting down
+2024/07/08 02:38:40 [notice] 39#39: gracefully shutting down
+2024/07/08 02:38:40 [notice] 30#30: exit
+2024/07/08 02:38:40 [notice] 33#33: gracefully shutting down
+2024/07/08 02:38:40 [notice] 34#34: gracefully shutting down
+2024/07/08 02:38:40 [notice] 31#31: exiting
+2024/07/08 02:38:40 [notice] 40#40: gracefully shutting down
+2024/07/08 02:38:40 [notice] 36#36: exiting
+2024/07/08 02:38:40 [notice] 39#39: exiting
+2024/07/08 02:38:40 [notice] 35#35: gracefully shutting down
+2024/07/08 02:38:40 [notice] 29#29: exiting
+2024/07/08 02:38:40 [notice] 37#37: exiting
+2024/07/08 02:38:40 [notice] 33#33: exiting
+2024/07/08 02:38:40 [notice] 34#34: exiting
+2024/07/08 02:38:40 [notice] 40#40: exiting
+2024/07/08 02:38:40 [notice] 40#40: exit
+2024/07/08 02:38:40 [notice] 34#34: exit
+2024/07/08 02:38:40 [notice] 32#32: exiting
+2024/07/08 02:38:40 [notice] 33#33: exit
+2024/07/08 02:38:40 [notice] 38#38: gracefully shutting down
+2024/07/08 02:38:40 [notice] 36#36: exit
+2024/07/08 02:38:40 [notice] 31#31: exit
+2024/07/08 02:38:40 [notice] 39#39: exit
+2024/07/08 02:38:40 [notice] 35#35: exiting
+2024/07/08 02:38:40 [notice] 29#29: exit
+2024/07/08 02:38:40 [notice] 37#37: exit
+2024/07/08 02:38:40 [notice] 35#35: exit
+2024/07/08 02:38:40 [notice] 32#32: exit
+2024/07/08 02:38:40 [notice] 38#38: exiting
+2024/07/08 02:38:40 [notice] 38#38: exit
+2024/07/08 02:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2024/07/08 02:38:40 [notice] 1#1: worker process 34 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: worker process 39 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/07/08 02:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/08 02:38:40 [notice] 1#1: worker process 29 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/08 02:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 02:38:40 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: worker process 37 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/07/08 02:38:40 [notice] 1#1: worker process 40 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/07/08 02:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/07/08 02:38:40 [notice] 1#1: worker process 36 exited with code 0
+2024/07/08 02:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:38:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 02:38:41 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 02:38:41 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:38:41 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/07/08 02:38:41 [notice] 1#1: worker process 35 exited with code 0
+2024/07/08 02:38:41 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:38:41 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/07/08 02:38:41 [notice] 1#1: worker process 38 exited with code 0
+2024/07/08 02:38:41 [notice] 1#1: exit
+2024/07/08 02:38:42 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:38:42 [notice] 1#1: nginx/1.27.0
+2024/07/08 02:38:42 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/08 02:38:42 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/08 02:38:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 02:38:42 [notice] 1#1: start worker processes
+2024/07/08 02:38:42 [notice] 1#1: start worker process 29
+2024/07/08 02:38:42 [notice] 1#1: start worker process 30
+2024/07/08 02:38:42 [notice] 1#1: start worker process 31
+2024/07/08 02:38:42 [notice] 1#1: start worker process 32
+2024/07/08 02:38:42 [notice] 1#1: start worker process 33
+2024/07/08 02:38:42 [notice] 1#1: start worker process 34
+2024/07/08 02:38:42 [notice] 1#1: start worker process 35
+2024/07/08 02:38:42 [notice] 1#1: start worker process 36
+2024/07/08 02:38:42 [notice] 1#1: start worker process 37
+2024/07/08 02:38:42 [notice] 1#1: start worker process 38
+2024/07/08 02:38:42 [notice] 1#1: start worker process 39
+2024/07/08 02:38:42 [notice] 1#1: start worker process 40
+2024/07/08 02:39:48 [error] 29#29: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:42:33 [error] 33#33: *3 upstream prematurely closed connection while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/08 02:43:40 [error] 31#31: *5 upstream prematurely closed connection while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/07/08 03:38:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 03:38:40 [notice] 31#31: gracefully shutting down
+2024/07/08 03:38:40 [notice] 30#30: gracefully shutting down
+2024/07/08 03:38:40 [notice] 37#37: gracefully shutting down
+2024/07/08 03:38:40 [notice] 38#38: gracefully shutting down
+2024/07/08 03:38:40 [notice] 36#36: gracefully shutting down
+2024/07/08 03:38:40 [notice] 33#33: gracefully shutting down
+2024/07/08 03:38:40 [notice] 35#35: gracefully shutting down
+2024/07/08 03:38:40 [notice] 32#32: gracefully shutting down
+2024/07/08 03:38:40 [notice] 34#34: gracefully shutting down
+2024/07/08 03:38:40 [notice] 31#31: exiting
+2024/07/08 03:38:40 [notice] 29#29: gracefully shutting down
+2024/07/08 03:38:40 [notice] 39#39: gracefully shutting down
+2024/07/08 03:38:40 [notice] 40#40: gracefully shutting down
+2024/07/08 03:38:40 [notice] 32#32: exiting
+2024/07/08 03:38:40 [notice] 34#34: exiting
+2024/07/08 03:38:40 [notice] 33#33: exiting
+2024/07/08 03:38:40 [notice] 33#33: exit
+2024/07/08 03:38:40 [notice] 31#31: exit
+2024/07/08 03:38:40 [notice] 36#36: exiting
+2024/07/08 03:38:40 [notice] 35#35: exiting
+2024/07/08 03:38:40 [notice] 38#38: exiting
+2024/07/08 03:38:40 [notice] 30#30: exiting
+2024/07/08 03:38:40 [notice] 34#34: exit
+2024/07/08 03:38:40 [notice] 37#37: exiting
+2024/07/08 03:38:40 [notice] 32#32: exit
+2024/07/08 03:38:40 [notice] 39#39: exiting
+2024/07/08 03:38:40 [notice] 39#39: exit
+2024/07/08 03:38:40 [notice] 36#36: exit
+2024/07/08 03:38:40 [notice] 35#35: exit
+2024/07/08 03:38:40 [notice] 38#38: exit
+2024/07/08 03:38:40 [notice] 40#40: exiting
+2024/07/08 03:38:40 [notice] 30#30: exit
+2024/07/08 03:38:40 [notice] 37#37: exit
+2024/07/08 03:38:40 [notice] 40#40: exit
+2024/07/08 03:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/07/08 03:38:40 [notice] 1#1: worker process 38 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: worker process 35 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/07/08 03:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2024/07/08 03:38:40 [notice] 1#1: worker process 39 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: worker process 40 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: worker process 34 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: worker process 37 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/07/08 03:38:40 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:38:40 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/07/08 03:38:40 [notice] 1#1: worker process 36 exited with code 0
+2024/07/08 03:38:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:38:53 [notice] 1#1: using the "epoll" event method
+2024/07/08 03:38:53 [notice] 1#1: nginx/1.27.0
+2024/07/08 03:38:53 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/08 03:38:53 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/08 03:38:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 03:38:53 [notice] 1#1: start worker processes
+2024/07/08 03:38:53 [notice] 1#1: start worker process 29
+2024/07/08 03:38:53 [notice] 1#1: start worker process 30
+2024/07/08 03:38:53 [notice] 1#1: start worker process 31
+2024/07/08 03:38:53 [notice] 1#1: start worker process 32
+2024/07/08 03:38:53 [notice] 1#1: start worker process 33
+2024/07/08 03:38:53 [notice] 1#1: start worker process 34
+2024/07/08 03:38:53 [notice] 1#1: start worker process 35
+2024/07/08 03:38:53 [notice] 1#1: start worker process 36
+2024/07/08 03:38:53 [notice] 1#1: start worker process 37
+2024/07/08 03:38:53 [notice] 1#1: start worker process 38
+2024/07/08 03:38:53 [notice] 1#1: start worker process 39
+2024/07/08 03:38:53 [notice] 1#1: start worker process 40
+2024/07/08 03:39:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 03:39:50 [notice] 37#37: gracefully shutting down
+2024/07/08 03:39:50 [notice] 32#32: gracefully shutting down
+2024/07/08 03:39:50 [notice] 30#30: gracefully shutting down
+2024/07/08 03:39:50 [notice] 30#30: exiting
+2024/07/08 03:39:50 [notice] 29#29: gracefully shutting down
+2024/07/08 03:39:50 [notice] 34#34: gracefully shutting down
+2024/07/08 03:39:50 [notice] 34#34: exiting
+2024/07/08 03:39:50 [notice] 38#38: gracefully shutting down
+2024/07/08 03:39:50 [notice] 35#35: gracefully shutting down
+2024/07/08 03:39:50 [notice] 35#35: exiting
+2024/07/08 03:39:50 [notice] 40#40: gracefully shutting down
+2024/07/08 03:39:50 [notice] 36#36: gracefully shutting down
+2024/07/08 03:39:50 [notice] 31#31: gracefully shutting down
+2024/07/08 03:39:50 [notice] 37#37: exiting
+2024/07/08 03:39:50 [notice] 39#39: gracefully shutting down
+2024/07/08 03:39:50 [notice] 33#33: gracefully shutting down
+2024/07/08 03:39:50 [notice] 39#39: exiting
+2024/07/08 03:39:50 [notice] 32#32: exiting
+2024/07/08 03:39:50 [notice] 30#30: exit
+2024/07/08 03:39:50 [notice] 29#29: exiting
+2024/07/08 03:39:50 [notice] 34#34: exit
+2024/07/08 03:39:50 [notice] 38#38: exiting
+2024/07/08 03:39:50 [notice] 38#38: exit
+2024/07/08 03:39:50 [notice] 35#35: exit
+2024/07/08 03:39:50 [notice] 40#40: exiting
+2024/07/08 03:39:50 [notice] 36#36: exiting
+2024/07/08 03:39:50 [notice] 36#36: exit
+2024/07/08 03:39:50 [notice] 31#31: exiting
+2024/07/08 03:39:50 [notice] 37#37: exit
+2024/07/08 03:39:50 [notice] 33#33: exiting
+2024/07/08 03:39:50 [notice] 39#39: exit
+2024/07/08 03:39:50 [notice] 32#32: exit
+2024/07/08 03:39:50 [notice] 29#29: exit
+2024/07/08 03:39:50 [notice] 40#40: exit
+2024/07/08 03:39:50 [notice] 31#31: exit
+2024/07/08 03:39:50 [notice] 33#33: exit
+2024/07/08 03:39:50 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/07/08 03:39:50 [notice] 1#1: worker process 29 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: worker process 34 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: worker process 37 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:39:50 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/07/08 03:39:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/08 03:39:50 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: worker process 36 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:39:50 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/07/08 03:39:50 [notice] 1#1: worker process 35 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: worker process 38 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:39:50 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/07/08 03:39:50 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/07/08 03:39:50 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: worker process 39 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: worker process 40 exited with code 0
+2024/07/08 03:39:50 [notice] 1#1: exit
+2024/07/08 03:40:18 [notice] 1#1: using the "epoll" event method
+2024/07/08 03:40:18 [notice] 1#1: nginx/1.27.0
+2024/07/08 03:40:18 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/08 03:40:18 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/08 03:40:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 03:40:18 [notice] 1#1: start worker processes
+2024/07/08 03:40:18 [notice] 1#1: start worker process 30
+2024/07/08 03:40:18 [notice] 1#1: start worker process 31
+2024/07/08 03:40:18 [notice] 1#1: start worker process 32
+2024/07/08 03:40:18 [notice] 1#1: start worker process 33
+2024/07/08 03:40:18 [notice] 1#1: start worker process 34
+2024/07/08 03:40:18 [notice] 1#1: start worker process 35
+2024/07/08 03:40:18 [notice] 1#1: start worker process 36
+2024/07/08 03:40:18 [notice] 1#1: start worker process 37
+2024/07/08 03:40:18 [notice] 1#1: start worker process 38
+2024/07/08 03:40:18 [notice] 1#1: start worker process 39
+2024/07/08 03:40:18 [notice] 1#1: start worker process 40
+2024/07/08 03:40:18 [notice] 1#1: start worker process 41
+2024/07/08 03:44:15 [error] 31#31: *29 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/08 03:44:15 [error] 31#31: *34 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/08 03:44:17 [error] 31#31: *38 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/page?page=1&pageSize=10 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/page?page=1&pageSize=10", host: "localhost", referrer: "http://localhost/"
+2024/07/08 04:02:14 [error] 30#30: *85 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/dish/page?page=1&pageSize=10&status=", host: "localhost", referrer: "http://localhost/"
+2024/07/08 04:02:14 [error] 30#30: *86 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.20.0.1, server: localhost, request: "GET /api/category/list?type=1 HTTP/1.1", upstream: "http://192.168.65.254:8080/admin/category/list?type=1", host: "localhost", referrer: "http://localhost/"
+2024/07/08 04:07:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 04:07:40 [notice] 30#30: gracefully shutting down
+2024/07/08 04:07:40 [notice] 32#32: gracefully shutting down
+2024/07/08 04:07:40 [notice] 35#35: gracefully shutting down
+2024/07/08 04:07:40 [notice] 37#37: gracefully shutting down
+2024/07/08 04:07:40 [notice] 39#39: gracefully shutting down
+2024/07/08 04:07:40 [notice] 34#34: gracefully shutting down
+2024/07/08 04:07:40 [notice] 40#40: gracefully shutting down
+2024/07/08 04:07:40 [notice] 36#36: gracefully shutting down
+2024/07/08 04:07:40 [notice] 30#30: exiting
+2024/07/08 04:07:40 [notice] 35#35: exiting
+2024/07/08 04:07:40 [notice] 39#39: exiting
+2024/07/08 04:07:40 [notice] 31#31: gracefully shutting down
+2024/07/08 04:07:40 [notice] 34#34: exiting
+2024/07/08 04:07:40 [notice] 37#37: exiting
+2024/07/08 04:07:40 [notice] 38#38: gracefully shutting down
+2024/07/08 04:07:40 [notice] 33#33: gracefully shutting down
+2024/07/08 04:07:40 [notice] 40#40: exiting
+2024/07/08 04:07:40 [notice] 41#41: gracefully shutting down
+2024/07/08 04:07:40 [notice] 36#36: exiting
+2024/07/08 04:07:40 [notice] 30#30: exit
+2024/07/08 04:07:40 [notice] 35#35: exit
+2024/07/08 04:07:40 [notice] 39#39: exit
+2024/07/08 04:07:40 [notice] 36#36: exit
+2024/07/08 04:07:40 [notice] 34#34: exit
+2024/07/08 04:07:40 [notice] 41#41: exiting
+2024/07/08 04:07:40 [notice] 41#41: exit
+2024/07/08 04:07:40 [notice] 31#31: exiting
+2024/07/08 04:07:40 [notice] 37#37: exit
+2024/07/08 04:07:40 [notice] 40#40: exit
+2024/07/08 04:07:40 [notice] 38#38: exiting
+2024/07/08 04:07:40 [notice] 33#33: exiting
+2024/07/08 04:07:40 [notice] 38#38: exit
+2024/07/08 04:07:40 [notice] 31#31: exit
+2024/07/08 04:07:40 [notice] 33#33: exit
+2024/07/08 04:07:40 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/07/08 04:07:40 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: worker process 34 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: worker process 35 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: worker process 36 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: worker process 39 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: worker process 40 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: worker process 41 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 04:07:40 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/08 04:07:40 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/07/08 04:07:40 [notice] 1#1: worker process 37 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 04:07:40 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/08 04:07:40 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 04:07:40 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 04:07:40 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/07/08 04:07:40 [notice] 1#1: worker process 38 exited with code 0
+2024/07/08 04:07:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 04:07:51 [notice] 1#1: using the "epoll" event method
+2024/07/08 04:07:51 [notice] 1#1: nginx/1.27.0
+2024/07/08 04:07:51 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/08 04:07:51 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/08 04:07:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 04:07:51 [notice] 1#1: start worker processes
+2024/07/08 04:07:51 [notice] 1#1: start worker process 30
+2024/07/08 04:07:51 [notice] 1#1: start worker process 31
+2024/07/08 04:07:51 [notice] 1#1: start worker process 32
+2024/07/08 04:07:51 [notice] 1#1: start worker process 33
+2024/07/08 04:07:51 [notice] 1#1: start worker process 34
+2024/07/08 04:07:51 [notice] 1#1: start worker process 35
+2024/07/08 04:07:51 [notice] 1#1: start worker process 36
+2024/07/08 04:07:51 [notice] 1#1: start worker process 37
+2024/07/08 04:07:51 [notice] 1#1: start worker process 38
+2024/07/08 04:07:51 [notice] 1#1: start worker process 39
+2024/07/08 04:07:51 [notice] 1#1: start worker process 40
+2024/07/08 04:07:51 [notice] 1#1: start worker process 41
+2024/07/08 04:08:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 04:08:05 [notice] 32#32: gracefully shutting down
+2024/07/08 04:08:05 [notice] 32#32: exiting
+2024/07/08 04:08:05 [notice] 31#31: gracefully shutting down
+2024/07/08 04:08:05 [notice] 39#39: gracefully shutting down
+2024/07/08 04:08:05 [notice] 39#39: exiting
+2024/07/08 04:08:05 [notice] 35#35: gracefully shutting down
+2024/07/08 04:08:05 [notice] 35#35: exiting
+2024/07/08 04:08:05 [notice] 30#30: gracefully shutting down
+2024/07/08 04:08:05 [notice] 34#34: gracefully shutting down
+2024/07/08 04:08:05 [notice] 37#37: gracefully shutting down
+2024/07/08 04:08:05 [notice] 33#33: gracefully shutting down
+2024/07/08 04:08:05 [notice] 36#36: gracefully shutting down
+2024/07/08 04:08:05 [notice] 38#38: gracefully shutting down
+2024/07/08 04:08:05 [notice] 40#40: gracefully shutting down
+2024/07/08 04:08:05 [notice] 41#41: gracefully shutting down
+2024/07/08 04:08:05 [notice] 41#41: exiting
+2024/07/08 04:08:05 [notice] 32#32: exit
+2024/07/08 04:08:05 [notice] 31#31: exiting
+2024/07/08 04:08:05 [notice] 39#39: exit
+2024/07/08 04:08:05 [notice] 35#35: exit
+2024/07/08 04:08:05 [notice] 30#30: exiting
+2024/07/08 04:08:05 [notice] 34#34: exiting
+2024/07/08 04:08:05 [notice] 37#37: exiting
+2024/07/08 04:08:05 [notice] 33#33: exiting
+2024/07/08 04:08:05 [notice] 36#36: exiting
+2024/07/08 04:08:05 [notice] 38#38: exiting
+2024/07/08 04:08:05 [notice] 40#40: exiting
+2024/07/08 04:08:05 [notice] 41#41: exit
+2024/07/08 04:08:05 [notice] 31#31: exit
+2024/07/08 04:08:05 [notice] 30#30: exit
+2024/07/08 04:08:05 [notice] 34#34: exit
+2024/07/08 04:08:05 [notice] 37#37: exit
+2024/07/08 04:08:05 [notice] 33#33: exit
+2024/07/08 04:08:05 [notice] 36#36: exit
+2024/07/08 04:08:05 [notice] 38#38: exit
+2024/07/08 04:08:05 [notice] 40#40: exit
+2024/07/08 04:08:05 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 04:08:05 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: worker process 35 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: worker process 39 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: worker process 40 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 04:08:05 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/07/08 04:08:05 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/07/08 04:08:05 [notice] 1#1: worker process 34 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: worker process 36 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: worker process 41 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 04:08:05 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/07/08 04:08:05 [notice] 1#1: worker process 37 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 04:08:05 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/07/08 04:08:05 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: worker process 38 exited with code 0
+2024/07/08 04:08:05 [notice] 1#1: exit
+2024/07/08 04:08:07 [notice] 1#1: using the "epoll" event method
+2024/07/08 04:08:07 [notice] 1#1: nginx/1.27.0
+2024/07/08 04:08:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/07/08 04:08:07 [notice] 1#1: OS: Linux 5.15.146.1-microsoft-standard-WSL2
+2024/07/08 04:08:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576

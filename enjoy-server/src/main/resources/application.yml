@@ -6,12 +6,19 @@ spring:
     active: dev
   main:
     allow-circular-references: true
+
   datasource:
     druid:
       driver-class-name: ${enjoy.datasource.driver-class-name}
       url: jdbc:mysql://${enjoy.datasource.host}:${enjoy.datasource.port}/${enjoy.datasource.database}?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: ${enjoy.datasource.username}
       password: ${enjoy.datasource.password}
+      connection-timeout: ${enjoy.datasource.timeout}
+      validation-timeout: ${enjoy.datasource.timeout}
+      max-lifetime: ${enjoy.datasource.lifetime}
+      maximum-pool-size: ${enjoy.datasource.pool.max}
+      minimum-idle: ${enjoy.datasource.pool.idle}
+
   redis:
     host: ${enjoy.redis.host}
     port: ${enjoy.redis.port}
@@ -45,15 +52,19 @@ enjoy:
     user-secret-key: itheima
     user-ttl: 7200000
     user-token-name: authentication
+
   alioss:
     endpoint: { enjoy.alioss.endpoint }
     access-key-id: { enjoy.alioss.access-key-id }
     access-key-secret: { enjoy.alioss.access-key-secret }
     bucket-name: { enjoy.alioss.bucket-name }
+
   wechat:
     appid: ${enjoy.wechat.appid}
     secret: ${enjoy.wechat.secret}
+
   shop:
     address: 北京市海淀区上地十街10号
+
   baidu:
     ak: your-ak
