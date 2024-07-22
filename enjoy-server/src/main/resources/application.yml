@@ -64,7 +64,7 @@ enjoy:
     secret: ${enjoy.wechat.secret}
 
   shop:
-    address: 北京市海淀区上地十街10号
+    address: 浙江省钱塘区杭州市311222
 
   baidu:
     ak: your-ak

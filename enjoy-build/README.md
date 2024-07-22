@@ -69,9 +69,9 @@ http {
 ```docker-compose.yml
 volumes:
   - ./mysql/schema.sql:/docker-entrypoint-initdb.d/schema.sql   // 挂载mysql初始化sql文件
-  - ./mysql/conf/my.cnf:/etc/mysql/my.cnf                            // 挂载mysql配置文件
-  - ./docker/mysql-data:/var/lib/mysql                                 // 挂载mysql数据文件
-  - ./docker/mysql-logs:/var/log/mysql                                 // 挂载mysql日志文件
+  - ./mysql/conf/my.cnf:/etc/mysql/my.cnf   // 挂载mysql配置文件
+  - ./docker/mysql-data:/var/lib/mysql  // 挂载mysql数据文件
+  - ./docker/mysql-logs:/var/log/mysql  // 挂载mysql日志文件
 privileged: true
 entrypoint: bash -c "chmod 644 /etc/mysql/my.cnf && exec /usr/local/bin/docker-entrypoint.sh mysqld"
 ```

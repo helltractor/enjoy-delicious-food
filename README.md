@@ -25,7 +25,7 @@
 
 1. `mvn clean install`
 2. `cd ./enjoy-build`
-3. `docker-compose up --d`
+3. `docker-compose up -d`
 
 # Run application（in IntelliJ IDEA）
 

@@ -1,7 +1,11 @@
 **/target/
-.idea
+**/test/
+.idea/
+docker/
+logs/
+**/application-dev.yml
+
 *.iml
 *.class
 *Test.java
-**/test/
-**/application-dev.yml
+!**/target/*.jar
