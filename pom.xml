@@ -21,7 +21,7 @@
     </modules>
 
     <properties>
-        <mysql>8.0.22</mysql>
+        <mysql>8.0.28</mysql>
         <mybatis.spring>2.2.0</mybatis.spring>
         <lombok>1.18.30</lombok>
         <fastjson>1.2.76</fastjson>
