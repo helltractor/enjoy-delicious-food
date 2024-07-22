@@ -33,7 +33,7 @@
         <aspectj>1.9.4</aspectj>
         <jjwt>0.9.1</jjwt>
         <jaxb-api>2.3.1</jaxb-api>
-        <poi>3.16</poi>
+        <poi>4.1.1</poi>
         <wechatpay-apiv3>0.4.8</wechatpay-apiv3>
         <httpcomponents>4.5.13</httpcomponents>
     </properties>
