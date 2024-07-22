@@ -1,10 +1,11 @@
 **/target/
-.idea
+**/test/
+.idea/
+docker/
+logs/
+
 *.iml
 *.class
 *Test.java
-**/test/
-docker/
-logs/
-*.rdb
 !**/target/*.jar
+*Properties.java
