@@ -2,7 +2,7 @@ version: '3'
 services:
   nginx:
     image: nginx:latest
-    container_name: enjoy-nginx
+    container_name: nginx-enjoy
     restart: always
     ports:
       - "80:80"
@@ -13,7 +13,7 @@ services:
 
   redis:
     image: redis:6.2
-    container_name: enjoy-redis
+    container_name: redis-enjoy
     ports:
       - "6379:6379"
     volumes:
@@ -21,7 +21,7 @@ services:
 
   mysql:
     image: mysql:8.0
-    container_name: enjoy-mysql
+    container_name: mysql-enjoy
     ports:
       - "3306:3306"
     restart: always # 容器随docker启动自启
