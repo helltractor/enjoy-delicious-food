@@ -2,7 +2,7 @@ version: '3'
 services:
   nginx:
     image: nginx:latest
-    container_name: nginx-enjoy
+    container_name: nginx
     restart: always
     ports:
       - "80:80"
@@ -13,7 +13,7 @@ services:
 
   redis:
     image: redis:6.2
-    container_name: redis-enjoy
+    container_name: redis
     ports:
       - "6379:6379"
     volumes:
@@ -21,7 +21,7 @@ services:
 
   mysql:
     image: mysql:8.0
-    container_name: mysql-enjoy
+    container_name: mysql
     ports:
       - "3306:3306"
     restart: always # 容器随docker启动自启
@@ -38,3 +38,7 @@ services:
       - ./docker/mysql-data:/var/lib/mysql
       - ./docker/mysql-logs:/var/log/mysql
     entrypoint: bash -c "chmod 644 /etc/mysql/my.cnf && exec /usr/local/bin/docker-entrypoint.sh mysqld"
+
+networks:
+  default:
+    name: enjoy
