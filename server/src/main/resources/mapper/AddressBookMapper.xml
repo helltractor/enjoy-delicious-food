@@ -1,51 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.enjoy.mapper.AddressBookMapper">
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.helltractor.enjoy.mapper.AddressBookMapper">
 
-    <select id="list" parameterType="AddressBook" resultType="AddressBook">
+    <select id="list" parameterType="com.helltractor.enjoy.entity.AddressBook" resultType="com.helltractor.enjoy.entity.AddressBook">
         select * from address_book
         <where>
             <if test="userId != null">
-                and user_id =
-                #{userId}
+                and user_id = #{userId}
             </if>
             <if test="phone != null">
-                and phone =
-                #{phone}
+                and phone = #{phone}
             </if>
             <if test="isDefault != null">
-                and is_default =
-                #{isDefault}
+                and is_default = #{isDefault}
             </if>
         </where>
     </select>
 
-    <update id="update" parameterType="addressBook">
+    <update id="update" parameterType="com.helltractor.enjoy.entity.AddressBook">
         update address_book
         <set>
             <if test="consignee != null">
-                consignee =
-                #{consignee},
+                consignee = #{consignee},
             </if>
             <if test="sex != null">
-                sex =
-                #{sex},
+                sex = #{sex},
             </if>
             <if test="phone != null">
-                phone =
-                #{phone},
+                phone = #{phone},
             </if>
             <if test="detail != null">
-                detail =
-                #{detail},
+                detail = #{detail},
             </if>
             <if test="label != null">
-                label =
-                #{label},
+                label = #{label},
             </if>
             <if test="isDefault != null">
-                is_default =
-                #{isDefault},
+                is_default = #{isDefault},
             </if>
         </set>
         where id = #{id}

@@ -28,18 +28,17 @@ spring:
 mybatis:
   #mapper配置文件
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.enjoy.entity
+  type-aliases-package: com.helltractor.enjoy.entity
   configuration:
     #开启驼峰命名
     map-underscore-to-camel-case: true
 
 logging:
   level:
-    com:
-      enjoy:
-        mapper: debug
-        service: info
-        controller: info
+    com.helltractor.enjoy:
+      mapper: debug
+      service: info
+      controller: info
 
 enjoy:
   jwt:
