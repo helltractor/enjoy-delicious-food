@@ -22,7 +22,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <mysql.version>8.0.28</mysql.version>
+        <mysql.version>8.2.0</mysql.version>
         <mybatis.spring.version>2.2.0</mybatis.spring.version>
         <lombok.version>1.18.30</lombok.version>
         <fastjson.version>1.2.76</fastjson.version>
