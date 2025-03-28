@@ -6,13 +6,9 @@
 
     <groupId>com.helltracotr.enjoy</groupId>
     <artifactId>build</artifactId>
-    <version>${revision}</version>
+    <version>0.0.3</version>
     <packaging>pom</packaging>
     <name>Enjoy Delicious Food</name>
-
-    <properties>
-        <revision>0.0.3</revision>
-    </properties>
 
     <modules>
         <module>../common</module>

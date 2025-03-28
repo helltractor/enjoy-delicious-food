@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.helltractor.enjoy</groupId>
         <artifactId>parent</artifactId>
-        <version>${revision}</version>
+        <version>0.0.3</version>
         <relativePath>../parent/pom.xml</relativePath>
     </parent>
 
