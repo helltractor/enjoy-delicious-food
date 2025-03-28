@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <a target="blank" href="https://github.com/helltractor/enjoy-delicious-food">
-        <img src="https://img.shields.io/github/stars/helltractor/enjoy-take-out.svg?style=social" alt="github star"/>
+        <img src="https://img.shields.io/github/stars/helltractor/enjoy-delicious-food.svg?style=social" alt="github star"/>
     </a>
     <a target="_blank" href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/:license-MIT-blue.svg" alt="license"/>
