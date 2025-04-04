@@ -21,9 +21,9 @@ import java.time.LocalTime;
 /**
  * 工作台
  */
+@Slf4j
 @RestController
 @RequestMapping("/admin/workspace")
-@Slf4j
 @Api(tags = "工作台相关接口")
 public class WorkSpaceController {
     

@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 订单管理
  */
+@Slf4j
 @RestController("adminOrderController")
 @RequestMapping("/admin/order")
-@Slf4j
 @Api(tags = "订单管理接口")
 public class OrderController {
     

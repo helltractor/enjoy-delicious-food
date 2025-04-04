@@ -20,8 +20,8 @@ import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
 
-@Service
 @Slf4j
+@Service
 public class WorkspaceServiceImpl implements WorkSpaceService {
     
     @Autowired

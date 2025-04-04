@@ -21,10 +21,10 @@ import java.time.LocalDate;
 /**
  * 数据统计相关接口
  */
+@Slf4j
 @RestController
 @RequestMapping("/admin/report")
 @Api(tags = "数据统计相关接口")
-@Slf4j
 public class ReportController {
     
     @Autowired

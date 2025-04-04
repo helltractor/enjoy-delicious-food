@@ -13,8 +13,8 @@ import java.util.List;
 /**
  * 定时任务类，定时处理订单状态
  */
-@Component
 @Slf4j
+@Component
 public class OrderTask {
     
     @Autowired

@@ -61,7 +61,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         log.info("开始生成接口文档...");
         ApiInfo apiInfo = new ApiInfoBuilder()
                 .title("精彩享食项目接口文档")
-                .version("2.0")
+                .version("0.0.3")
                 .description("精彩享食项目接口文档")
                 .build();
         Docket docket = new Docket(DocumentationType.SWAGGER_2)

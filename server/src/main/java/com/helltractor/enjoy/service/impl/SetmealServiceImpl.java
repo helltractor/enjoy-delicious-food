@@ -29,8 +29,8 @@ import java.util.List;
 /**
  * 套餐业务实现
  */
-@Service
 @Slf4j
+@Service
 public class SetmealServiceImpl implements SetmealService {
     
     @Autowired

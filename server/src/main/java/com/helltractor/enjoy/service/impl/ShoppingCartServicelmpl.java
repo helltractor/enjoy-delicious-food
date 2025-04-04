@@ -22,8 +22,8 @@ import java.util.List;
  * @Date: 2024/4/28 16:37
  */
 
-@Service
 @Slf4j
+@Service
 public class ShoppingCartServicelmpl implements ShoppingCartService {
     @Autowired
     private ShoppingCartMapper shoppingCartMapper;

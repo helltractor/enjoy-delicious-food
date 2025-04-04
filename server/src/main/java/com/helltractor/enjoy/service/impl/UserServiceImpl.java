@@ -18,8 +18,8 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
-@Service
 @Slf4j
+@Service
 public class UserServiceImpl implements UserService {
     
     //微信服务接口地址

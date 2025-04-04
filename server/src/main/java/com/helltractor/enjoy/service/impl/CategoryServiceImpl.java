@@ -25,14 +25,16 @@ import java.util.List;
 /**
  * 分类业务层
  */
-@Service
 @Slf4j
+@Service
 public class CategoryServiceImpl implements CategoryService {
     
     @Autowired
     private CategoryMapper categoryMapper;
+    
     @Autowired
     private DishMapper dishMapper;
+    
     @Autowired
     private SetmealMapper setmealMapper;
     

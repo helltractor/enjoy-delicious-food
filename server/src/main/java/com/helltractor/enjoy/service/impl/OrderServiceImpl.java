@@ -39,8 +39,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@Service
 @Slf4j
+@Service
 public class OrderServiceImpl implements OrderService {
     
     @Autowired

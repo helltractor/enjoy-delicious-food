@@ -4,6 +4,7 @@ server:
 spring:
   profiles:
     active: dev
+
   main:
     allow-circular-references: true
 
@@ -19,11 +20,12 @@ spring:
       maximum-pool-size: ${enjoy.datasource.pool.max}
       minimum-idle: ${enjoy.datasource.pool.idle}
 
-  redis:
-    host: ${enjoy.redis.host}
-    port: ${enjoy.redis.port}
-    password: ${enjoy.redis.password}
-    database: ${enjoy.redis.database}
+  data:
+    redis:
+      host: ${enjoy.redis.host}
+      port: ${enjoy.redis.port}
+      password: ${enjoy.redis.password}
+      database: ${enjoy.redis.database}
 
 mybatis:
   #mapper配置文件
@@ -53,10 +55,10 @@ enjoy:
     user-token-name: authentication
 
   alioss:
-    endpoint: { enjoy.alioss.endpoint }
-    access-key-id: { enjoy.alioss.access-key-id }
-    access-key-secret: { enjoy.alioss.access-key-secret }
-    bucket-name: { enjoy.alioss.bucket-name }
+    endpoint: ${enjoy.alioss.endpoint}
+    access-key-id: ${enjoy.alioss.access-key-id}
+    access-key-secret: ${enjoy.alioss.access-key-secret}
+    bucket-name: ${enjoy.alioss.bucket-name}
 
   wechat:
     appid: ${enjoy.wechat.appid}

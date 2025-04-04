@@ -20,10 +20,10 @@ import java.util.Set;
 /**
  * 菜品管理
  */
+@Slf4j
 @RestController
 @RequestMapping("/admin/dish")
 @Api(tags = "菜品相关接口")
-@Slf4j
 public class DishController {
     
     @Autowired

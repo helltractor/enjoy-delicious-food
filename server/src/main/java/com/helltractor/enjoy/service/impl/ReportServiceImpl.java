@@ -6,7 +6,11 @@ import com.helltractor.enjoy.mapper.OrderMapper;
 import com.helltractor.enjoy.mapper.UserMapper;
 import com.helltractor.enjoy.service.ReportService;
 import com.helltractor.enjoy.service.WorkSpaceService;
-import com.helltractor.enjoy.vo.*;
+import com.helltractor.enjoy.vo.BusinessDataVO;
+import com.helltractor.enjoy.vo.OrderReportVO;
+import com.helltractor.enjoy.vo.SalesTop10ReportVO;
+import com.helltractor.enjoy.vo.TurnoverReportVO;
+import com.helltractor.enjoy.vo.UserReportVO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -28,14 +32,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@Service
 @Slf4j
+@Service
 public class ReportServiceImpl implements ReportService {
     
     @Autowired
     private OrderMapper orderMapper;
+    
     @Autowired
     private UserMapper userMapper;
+    
     @Autowired
     private WorkSpaceService workSpaceService;
     

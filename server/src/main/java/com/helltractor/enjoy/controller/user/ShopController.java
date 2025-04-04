@@ -10,11 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @Author: helltractor
- * @Date: 2024/4/9 15:53
- */
-
 @Slf4j
 @Api("店铺相关接口")
 @RequestMapping("/user/shop")

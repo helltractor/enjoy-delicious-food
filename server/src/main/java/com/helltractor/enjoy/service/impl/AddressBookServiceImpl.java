@@ -11,8 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Service
 @Slf4j
+@Service
 public class AddressBookServiceImpl implements AddressBookService {
     
     @Autowired

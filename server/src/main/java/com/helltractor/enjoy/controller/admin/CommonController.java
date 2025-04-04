@@ -18,10 +18,10 @@ import java.util.UUID;
 /**
  * 通用接口
  */
+@Slf4j
 @RestController
 @RequestMapping("/admin/common")
 @Api(tags = "通用接口")
-@Slf4j
 public class CommonController {
     
     @Autowired

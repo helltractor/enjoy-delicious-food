@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * @Author: helltractor
- * @Date: 2024/4/28 16:24
- */
-
 @Slf4j
 @RestController
 @RequestMapping("/user/shoppingCart")

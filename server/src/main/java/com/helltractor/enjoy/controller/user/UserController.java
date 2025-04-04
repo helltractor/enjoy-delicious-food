@@ -20,12 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author: helltractor
- * @Date: 2024/4/9 23:31
- */
-
-
 @Slf4j
 @RestController
 @RequestMapping("/user")
