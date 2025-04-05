@@ -11,13 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
-
 importScripts(
-    "precache-manifest.5e430aca4979062ff3bb5d045cb4a7aa.js"
+  "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "vue-typescript-admin-template"});
+importScripts("precache-manifest.5e430aca4979062ff3bb5d045cb4a7aa.js");
+
+workbox.core.setCacheNameDetails({ prefix: "vue-typescript-admin-template" });
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
