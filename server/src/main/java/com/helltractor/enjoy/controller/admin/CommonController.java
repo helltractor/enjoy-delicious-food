@@ -23,10 +23,10 @@ import java.util.UUID;
 @RequestMapping("/admin/common")
 @Api(tags = "通用接口")
 public class CommonController {
-    
+
     @Autowired
     private AliOssUtil aliOssUtil;
-    
+
     /**
      * @param file
      * @return
@@ -38,20 +38,21 @@ public class CommonController {
         try {
             // 原始文件名称
             String originFilename = file.getOriginalFilename();
-            
+
             // 截取原始文件的后缀
             String extension = originFilename.substring(originFilename.lastIndexOf("."));
-            
+
             // 构建文件的新名称
             String objectName = UUID.randomUUID() + extension;
-            
+
             // 文件的请求路径
             String filePath = aliOssUtil.upload(file.getBytes(), objectName);
-            
+
             return Result.success(filePath);
         } catch (IOException e) {
             log.error("文件上传失败： {}", e);
         }
         return Result.error(MessageConstant.UPLOAD_FAILED);
     }
+
 }

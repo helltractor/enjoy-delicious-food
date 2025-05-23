@@ -26,10 +26,10 @@ import java.time.LocalDate;
 @RequestMapping("/admin/report")
 @Api(tags = "数据统计相关接口")
 public class ReportController {
-    
+
     @Autowired
     private ReportService reportService;
-    
+
     /**
      * 营业额统计
      *
@@ -45,7 +45,7 @@ public class ReportController {
         log.info("营业额数据统计：{},{}", begin, end);
         return Result.success(reportService.getTurnoverStatistics(begin, end));
     }
-    
+
     /**
      * 用户统计
      *
@@ -61,7 +61,7 @@ public class ReportController {
         log.info("用户数据统计：{},{}", begin, end);
         return Result.success(reportService.getUserStatistics(begin, end));
     }
-    
+
     /**
      * 订单统计
      *
@@ -77,7 +77,7 @@ public class ReportController {
         log.info("订单数据统计：{},{}", begin, end);
         return Result.success(reportService.getOrderStatistics(begin, end));
     }
-    
+
     /**
      * 销量排名top10
      *
@@ -93,7 +93,7 @@ public class ReportController {
         log.info("销量排名top10：{},{}", begin, end);
         return Result.success(reportService.getSalesTop10(begin, end));
     }
-    
+
     /**
      * 导出运营数据报表
      *
@@ -104,4 +104,5 @@ public class ReportController {
     public void export(HttpServletResponse response) {
         reportService.exportBusinessData(response);
     }
+
 }

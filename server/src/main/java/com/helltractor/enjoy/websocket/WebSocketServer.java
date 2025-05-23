@@ -18,10 +18,10 @@ import java.util.Map;
 @Component
 @ServerEndpoint("/ws/{sid}")
 public class WebSocketServer {
-    
+
     //存放会话对象
     private static final Map<String, Session> sessionMap = new HashMap();
-    
+
     /**
      * 连接建立成功调用的方法
      */
@@ -30,7 +30,7 @@ public class WebSocketServer {
         System.out.println("客户端：" + sid + "建立连接");
         sessionMap.put(sid, session);
     }
-    
+
     /**
      * 收到客户端消息后调用的方法
      *
@@ -40,7 +40,7 @@ public class WebSocketServer {
     public void onMessage(String message, @PathParam("sid") String sid) {
         System.out.println("收到来自客户端：" + sid + "的信息:" + message);
     }
-    
+
     /**
      * 连接关闭调用的方法
      *
@@ -51,7 +51,7 @@ public class WebSocketServer {
         System.out.println("连接断开:" + sid);
         sessionMap.remove(sid);
     }
-    
+
     /**
      * 群发
      *
@@ -68,4 +68,5 @@ public class WebSocketServer {
             }
         }
     }
+
 }

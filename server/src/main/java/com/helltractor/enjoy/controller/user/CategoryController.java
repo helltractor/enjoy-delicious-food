@@ -16,10 +16,10 @@ import java.util.List;
 @RequestMapping("/user/category")
 @Api(tags = "C端-分类接口")
 public class CategoryController {
-    
+
     @Autowired
     private CategoryService categoryService;
-    
+
     /**
      * 查询分类
      *
@@ -32,4 +32,5 @@ public class CategoryController {
         List<Category> list = categoryService.list(type);
         return Result.success(list);
     }
+
 }

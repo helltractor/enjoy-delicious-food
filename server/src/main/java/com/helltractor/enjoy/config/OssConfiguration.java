@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @Slf4j
 @Configuration
 public class OssConfiguration {
-    
+
     @Bean
     @ConditionalOnMissingBean
     public AliOssUtil aliOssutil(AliOssProperties aliOssProperties) {
@@ -21,4 +21,5 @@ public class OssConfiguration {
         return new AliOssUtil(aliOssProperties.getEndpoint(), aliOssProperties.getAccessKeyId(),
                 aliOssProperties.getAccessKeySecret(), aliOssProperties.getBucketName());
     }
+
 }

@@ -28,13 +28,13 @@ import java.util.Map;
 @RequestMapping("/admin/employee")
 @Api(tags = "员工相关接口")
 public class EmployeeController {
-    
+
     @Autowired
     private EmployeeService employeeService;
-    
+
     @Autowired
     private JwtProperties jwtProperties;
-    
+
     /**
      * 登录
      *
@@ -45,9 +45,9 @@ public class EmployeeController {
     @ApiOperation(value = "员工登录")
     public Result<EmployeeLoginVO> login(@RequestBody EmployeeLoginDTO employeeLoginDTO) {
         log.info("员工登录：{}", employeeLoginDTO);
-        
+
         Employee employee = employeeService.login(employeeLoginDTO);
-        
+
         //登录成功后，生成jwt令牌
         Map<String, Object> claims = new HashMap<>();
         claims.put(JwtClaimsConstant.EMP_ID, employee.getId());
@@ -55,17 +55,17 @@ public class EmployeeController {
                 jwtProperties.getAdminSecretKey(),
                 jwtProperties.getAdminTtl(),
                 claims);
-        
+
         EmployeeLoginVO employeeLoginVO = EmployeeLoginVO.builder()
                 .id(employee.getId())
                 .userName(employee.getUsername())
                 .name(employee.getName())
                 .token(token)
                 .build();
-        
+
         return Result.success(employeeLoginVO);
     }
-    
+
     /**
      * 退出
      *
@@ -76,7 +76,7 @@ public class EmployeeController {
     public Result<String> logout() {
         return Result.success();
     }
-    
+
     /**
      * 新增员工
      *
@@ -90,7 +90,7 @@ public class EmployeeController {
         employeeService.save(employeeDTO);
         return Result.success();
     }
-    
+
     /**
      * 员工分页查询
      *
@@ -104,7 +104,7 @@ public class EmployeeController {
         PageResult pageResult = employeeService.pageQuery(employeePageQueryDTO);
         return Result.success(pageResult);
     }
-    
+
     /**
      * 禁用启用员工账号
      *
@@ -119,7 +119,7 @@ public class EmployeeController {
         employeeService.startOrStop(status, id);
         return Result.success();
     }
-    
+
     /**
      * 根据id查询员工信息
      *
@@ -132,7 +132,7 @@ public class EmployeeController {
         Employee employee = employeeService.getById(id);
         return Result.success(employee);
     }
-    
+
     /**
      * 编辑员工信息
      *
@@ -146,4 +146,5 @@ public class EmployeeController {
         employeeService.update(employeeDTO);
         return Result.success();
     }
+
 }

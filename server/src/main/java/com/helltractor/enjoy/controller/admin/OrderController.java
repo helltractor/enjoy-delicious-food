@@ -23,10 +23,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/admin/order")
 @Api(tags = "订单管理接口")
 public class OrderController {
-    
+
     @Autowired
     private OrderService orderService;
-    
+
     /**
      * 订单搜索
      *
@@ -39,7 +39,7 @@ public class OrderController {
         PageResult pageResult = orderService.conditionSearch(ordersPageQueryDTO);
         return Result.success(pageResult);
     }
-    
+
     /**
      * 各个状态的订单数量统计
      *
@@ -51,7 +51,7 @@ public class OrderController {
         OrderStatisticsVO orderStatisticsVO = orderService.statistics();
         return Result.success(orderStatisticsVO);
     }
-    
+
     /**
      * 订单详情
      *
@@ -64,7 +64,7 @@ public class OrderController {
         OrderVO orderVO = orderService.details(id);
         return Result.success(orderVO);
     }
-    
+
     /**
      * 接单
      *
@@ -76,7 +76,7 @@ public class OrderController {
         orderService.confirm(ordersConfirmDTO);
         return Result.success();
     }
-    
+
     /**
      * 拒单
      *
@@ -88,7 +88,7 @@ public class OrderController {
         orderService.rejection(ordersRejectionDTO);
         return Result.success();
     }
-    
+
     /**
      * 取消订单
      *
@@ -100,7 +100,7 @@ public class OrderController {
         orderService.cancel(ordersCancelDTO);
         return Result.success();
     }
-    
+
     /**
      * 派送订单
      *
@@ -112,7 +112,7 @@ public class OrderController {
         orderService.delivery(id);
         return Result.success();
     }
-    
+
     /**
      * 完成订单
      *
@@ -124,4 +124,5 @@ public class OrderController {
         orderService.complete(id);
         return Result.success();
     }
+
 }

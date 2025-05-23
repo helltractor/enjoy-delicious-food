@@ -7,7 +7,7 @@ import com.helltractor.enjoy.entity.Employee;
 import com.helltractor.enjoy.result.PageResult;
 
 public interface EmployeeService {
-    
+
     /**
      * 员工登录
      *
@@ -15,7 +15,7 @@ public interface EmployeeService {
      * @return
      */
     Employee login(EmployeeLoginDTO employeeLoginDTO);
-    
+
     /**
      * 新增员工
      *
@@ -23,7 +23,7 @@ public interface EmployeeService {
      * @return
      */
     void save(EmployeeDTO employeeDTO);
-    
+
     /**
      * 分页查询
      *
@@ -31,7 +31,7 @@ public interface EmployeeService {
      * @return
      */
     PageResult pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
-    
+
     /**
      * 禁用启用员工账号
      *
@@ -40,7 +40,7 @@ public interface EmployeeService {
      * @return
      */
     void startOrStop(Integer status, Long id);
-    
+
     /**
      * 根据id查询员工信息
      *
@@ -48,7 +48,7 @@ public interface EmployeeService {
      * @return
      */
     Employee getById(Long id);
-    
+
     /**
      * 编辑员工信息
      *
@@ -56,4 +56,5 @@ public interface EmployeeService {
      * @return
      */
     void update(EmployeeDTO employeeDTO);
+
 }

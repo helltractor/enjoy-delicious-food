@@ -51,5 +51,5 @@ http://localhost/#/login
 
 - [ ] 数据库为空时支持导出数据表
 - [x] 数据库主从复制支持
-    - [基于 Docker-Compose 搭建 MySQL 主从复制](https://www.cnblogs.com/haima/p/14341903.html)
-    - [MySQL 主从复制详解（原理 + 实践）](https://www.cnblogs.com/wzh2010/p/15049805.html)
+  - [基于 Docker-Compose 搭建 MySQL 主从复制](https://www.cnblogs.com/haima/p/14341903.html)
+  - [MySQL 主从复制详解（原理 + 实践）](https://www.cnblogs.com/wzh2010/p/15049805.html)

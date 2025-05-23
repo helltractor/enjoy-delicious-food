@@ -15,10 +15,10 @@ import java.util.List;
 @RequestMapping("/user/addressBook")
 @Api(tags = "C端地址簿接口")
 public class AddressBookController {
-    
+
     @Autowired
     private AddressBookService addressBookService;
-    
+
     /**
      * 查询当前登录用户的所有地址信息
      *
@@ -32,7 +32,7 @@ public class AddressBookController {
         List<AddressBook> list = addressBookService.list(addressBook);
         return Result.success(list);
     }
-    
+
     /**
      * 新增地址
      *
@@ -45,14 +45,14 @@ public class AddressBookController {
         addressBookService.save(addressBook);
         return Result.success();
     }
-    
+
     @GetMapping("/{id}")
     @ApiOperation("根据id查询地址")
     public Result<AddressBook> getById(@PathVariable Long id) {
         AddressBook addressBook = addressBookService.getById(id);
         return Result.success(addressBook);
     }
-    
+
     /**
      * 根据id修改地址
      *
@@ -65,7 +65,7 @@ public class AddressBookController {
         addressBookService.update(addressBook);
         return Result.success();
     }
-    
+
     /**
      * 设置默认地址
      *
@@ -78,7 +78,7 @@ public class AddressBookController {
         addressBookService.setDefault(addressBook);
         return Result.success();
     }
-    
+
     /**
      * 根据id删除地址
      *
@@ -91,7 +91,7 @@ public class AddressBookController {
         addressBookService.deleteById(id);
         return Result.success();
     }
-    
+
     /**
      * 查询默认地址
      */
@@ -103,10 +103,11 @@ public class AddressBookController {
         addressBook.setIsDefault(1);
         addressBook.setUserId(BaseContext.getCurrentId());
         List<AddressBook> list = addressBookService.list(addressBook);
-        
+
         if (list != null && list.size() == 1) {
             return Result.success(list.get(0));
         }
         return Result.error("没有查询到默认地址");
     }
+
 }

@@ -17,4 +17,5 @@ public class HealthController {
     public Result<String> health() {
         return Result.success("ok");
     }
+
 }

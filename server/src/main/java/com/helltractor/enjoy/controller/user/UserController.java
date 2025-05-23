@@ -25,15 +25,15 @@ import java.util.Map;
 @RequestMapping("/user")
 @Api(tags = "C端-用户接口")
 public class UserController {
-    
+
     // 用户服务
     @Autowired
     private UserService userService;
-    
+
     // jwt配置
     @Autowired
     private JwtProperties jwtProperties;
-    
+
     /**
      * C端用户登录-微信用户登录
      *
@@ -45,15 +45,15 @@ public class UserController {
     private Result<UserLoginVO> login(@RequestBody UserLoginDTO userLoginDTO) {
         // 打印日志
         log.info("微信用户登录，授权码为：{}", userLoginDTO.getCode());
-        
+
         // 调用微信登录接口
         User user = userService.wxlogin(userLoginDTO);
-        
+
         // 生成token
         Map claims = new HashMap();
         claims.put(JwtClaimsConstant.USER_ID, user.getId());
         String token = JwtUtil.createJWT(jwtProperties.getUserSecretKey(), jwtProperties.getUserTtl(), claims);
-        
+
         // 返回用户信息
         UserLoginVO userLoginVO = UserLoginVO.builder()
                 .id(user.getId())
@@ -62,4 +62,5 @@ public class UserController {
                 .build();
         return Result.success(userLoginVO);
     }
+
 }

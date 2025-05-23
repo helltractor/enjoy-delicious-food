@@ -17,10 +17,10 @@ import java.util.List;
 @RequestMapping("/user/shoppingCart")
 @Api(tags = "C端-购物车相关接口")
 public class ShoppingCartController {
-    
+
     @Autowired
     private ShoppingCartService shoppingCartService;
-    
+
     /**
      * 添加购物车
      *
@@ -34,7 +34,7 @@ public class ShoppingCartController {
         shoppingCartService.addShoppingCart(shoppingCartDTO);
         return Result.success();
     }
-    
+
     /**
      * 查询购物车列表
      *
@@ -47,7 +47,7 @@ public class ShoppingCartController {
         List<ShoppingCart> list = shoppingCartService.showShoppingCart();
         return Result.success(list);
     }
-    
+
     /**
      * 删除购物车
      *
@@ -61,7 +61,7 @@ public class ShoppingCartController {
         shoppingCartService.subShoppingCart(shoppingCartDTO);
         return Result.success();
     }
-    
+
     /**
      * 清空购物车
      *
@@ -75,4 +75,5 @@ public class ShoppingCartController {
         shoppingCartService.cleanShoppingCart();
         return Result.success();
     }
+
 }

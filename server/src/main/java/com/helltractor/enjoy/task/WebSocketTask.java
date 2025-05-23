@@ -9,10 +9,10 @@ import java.time.format.DateTimeFormatter;
 
 @Component
 public class WebSocketTask {
-    
+
     @Autowired
     private WebSocketServer webSocketServer;
-    
+
     /**
      * 通过WebSocket每隔5秒向客户端发送消息
      */
@@ -20,4 +20,5 @@ public class WebSocketTask {
     public void sendMessageToClient() {
         webSocketServer.sendToAllClient("这是来自服务端的消息：" + DateTimeFormatter.ofPattern("HH:mm:ss").format(LocalDateTime.now()));
     }
+
 }

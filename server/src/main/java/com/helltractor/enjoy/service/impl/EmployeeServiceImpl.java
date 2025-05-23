@@ -24,10 +24,10 @@ import java.util.List;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
-    
+
     @Autowired
     private EmployeeMapper employeeMapper;
-    
+
     /**
      * 员工登录
      *
@@ -37,10 +37,10 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Employee login(EmployeeLoginDTO employeeLoginDTO) {
         String username = employeeLoginDTO.getUsername();
         String password = employeeLoginDTO.getPassword();
-        
+
         //1、根据用户名查询数据库中的数据
         Employee employee = employeeMapper.getByUsername(username);
-        
+
         //2、处理各种异常情况（用户名不存在、密码不对、账号被锁定）
         if (employee == null) {
             //账号不存在
@@ -60,7 +60,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         //3、返回实体对象
         return employee;
     }
-    
+
     /**
      * 新增员工
      *
@@ -69,13 +69,13 @@ public class EmployeeServiceImpl implements EmployeeService {
      */
     public void save(EmployeeDTO employeeDTO) {
         Employee employee = new Employee();
-        
+
         // 对象属性拷贝
         BeanUtils.copyProperties(employeeDTO, employee);
-        
+
         // 设置账号状态，默认正常状态1表示正常，0表示锁定
         employee.setStatus(StatusConstant.ENABLE);
-        
+
         // 设置密码，默认密码123456
         employee.setPassword(DigestUtils.md5DigestAsHex(PasswordConstant.DEFAULT_PASSWORD.getBytes()));
 
@@ -86,10 +86,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 //        // 设置当前记录创建人id和修改人id
 //        employee.setCreateUser(BaseContext.getCurrentId());
 //        employee.setUpdateUser(BaseContext.getCurrentId());
-        
         employeeMapper.insert(employee);
     }
-    
+
     /**
      * 分页查询
      *
@@ -99,13 +98,13 @@ public class EmployeeServiceImpl implements EmployeeService {
     public PageResult pageQuery(EmployeePageQueryDTO employeePageQueryDTO) {
         PageHelper.startPage(employeePageQueryDTO.getPage(), employeePageQueryDTO.getPageSize());
         Page<Employee> page = employeeMapper.pageQuery(employeePageQueryDTO);
-        
+
         long total = page.getTotal();
         List<Employee> records = page.getResult();
-        
+
         return new PageResult(total, records);
     }
-    
+
     /**
      * 禁用启用员工账号
      *
@@ -123,7 +122,7 @@ public class EmployeeServiceImpl implements EmployeeService {
                 .build();
         employeeMapper.update(employee);
     }
-    
+
     /**
      * 根据id查询员工信息
      *
@@ -135,7 +134,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         employee.setPassword("****");
         return employee;
     }
-    
+
     /**
      * 编辑员工信息
      *
@@ -148,7 +147,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 //        employee.setUpdateTime(LocalDateTime.now());
 //        employee.setUpdateUser(BaseContext.getCurrentId());
-        
         employeeMapper.update(employee);
     }
+
 }

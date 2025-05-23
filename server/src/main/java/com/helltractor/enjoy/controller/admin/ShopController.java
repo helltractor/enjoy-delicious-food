@@ -12,18 +12,17 @@ import org.springframework.web.bind.annotation.*;
  * @Author: helltractor
  * @Date: 2024/4/9 15:53
  */
-
 @Slf4j
 @Api("店铺相关接口")
 @RequestMapping("/admin/shop")
 @RestController("adminShopController")
 public class ShopController {
-    
+
     private static final String SHOP_STATUS = "SHOP_STATUS";
-    
+
     @Autowired
     private RedisTemplate redisTemplate;
-    
+
     /**
      * 设置店铺的营业状态
      *
@@ -37,7 +36,7 @@ public class ShopController {
         redisTemplate.opsForValue().set(SHOP_STATUS, status);
         return Result.success();
     }
-    
+
     /**
      * 获取店铺的营业状态
      *
@@ -51,4 +50,5 @@ public class ShopController {
         log.info("获取店铺的营业状态为：{}", status == 1 ? "营业中" : "休息中");
         return Result.success(status);
     }
+
 }

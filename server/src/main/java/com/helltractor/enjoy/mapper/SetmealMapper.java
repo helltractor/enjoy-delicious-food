@@ -16,7 +16,7 @@ import java.util.Map;
 
 @Mapper
 public interface SetmealMapper {
-    
+
     /**
      * 根据分类id查询套餐的数量
      *
@@ -24,7 +24,7 @@ public interface SetmealMapper {
      */
     @Select("select count(id) from setmeal where category_id = #{categoryId}")
     Integer countByCategoryId(Long id);
-    
+
     /**
      * 向套餐表插入数据
      *
@@ -32,14 +32,14 @@ public interface SetmealMapper {
      */
     @AutoFill(OperationType.INSERT)
     void insert(Setmeal setmeal);
-    
+
     /**
      * 分页查询
      *
      * @param setmealPageQueryDTO
      */
     Page<SetmealVO> pageQuery(SetmealPageQueryDTO setmealPageQueryDTO);
-    
+
     /**
      * 根据id查询数据
      *
@@ -47,7 +47,7 @@ public interface SetmealMapper {
      */
     @Select("select * from setmeal where id = #{id}")
     Setmeal getById(Long id);
-    
+
     /**
      * 根据id删除数据
      *
@@ -55,7 +55,7 @@ public interface SetmealMapper {
      */
     @Delete("delete from setmeal where id = #{id}")
     void deleteById(Long setmealId);
-    
+
     /**
      * 修改套餐表
      *
@@ -63,25 +63,26 @@ public interface SetmealMapper {
      */
     @AutoFill(OperationType.UPDATE)
     void update(Setmeal setmeal);
-    
+
     /**
      * 条件查询
      *
      * @param setmeal
      */
     List<Setmeal> list(Setmeal setmeal);
-    
+
     /**
      * 根据id查询菜品选项
      *
      * @param id
      */
     List<DishItemVO> getDishItemBySetmealId(Long id);
-    
+
     /**
      * 根据条件统计套餐数量
      *
      * @param map
      */
     Integer countByMap(Map map);
+
 }

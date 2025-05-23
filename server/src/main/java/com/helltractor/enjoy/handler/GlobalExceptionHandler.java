@@ -15,7 +15,7 @@ import java.sql.SQLIntegrityConstraintViolationException;
 @Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-    
+
     /**
      * 捕获业务异常
      */
@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
         log.error("异常信息：{}", ex.getMessage());
         return Result.error(ex.getMessage());
     }
-    
+
     /**
      * 处理SQL异常
      */
@@ -41,4 +41,5 @@ public class GlobalExceptionHandler {
             return Result.error(MessageConstant.UNKNOWN_ERROR);
         }
     }
+
 }

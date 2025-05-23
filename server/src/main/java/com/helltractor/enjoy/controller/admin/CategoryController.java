@@ -22,10 +22,10 @@ import java.util.List;
 @RequestMapping("/admin/category")
 @Api(tags = "分类相关接口")
 public class CategoryController {
-    
+
     @Autowired
     private CategoryService categoryService;
-    
+
     /**
      * 新增分类
      *
@@ -39,7 +39,7 @@ public class CategoryController {
         categoryService.save(categoryDTO);
         return Result.success();
     }
-    
+
     /**
      * 分类分页查询
      *
@@ -53,7 +53,7 @@ public class CategoryController {
         PageResult pageResult = categoryService.pageQuery(categoryPageQueryDTO);
         return Result.success(pageResult);
     }
-    
+
     /**
      * 删除分类
      *
@@ -67,7 +67,7 @@ public class CategoryController {
         categoryService.deleteById(id);
         return Result.success();
     }
-    
+
     /**
      * 修改分类
      *
@@ -80,7 +80,7 @@ public class CategoryController {
         categoryService.update(categoryDTO);
         return Result.success();
     }
-    
+
     /**
      * 启用、禁用分类
      *
@@ -94,7 +94,7 @@ public class CategoryController {
         categoryService.startOrStop(status, id);
         return Result.success();
     }
-    
+
     /**
      * 根据类型查询分类
      *
@@ -107,4 +107,5 @@ public class CategoryController {
         List<Category> list = categoryService.list(type);
         return Result.success(list);
     }
+
 }

@@ -27,13 +27,13 @@ import java.util.List;
 @Slf4j
 @Configuration
 public class WebMvcConfiguration extends WebMvcConfigurationSupport {
-    
+
     @Autowired
     private JwtTokenAdminInterceptor jwtTokenAdminInterceptor;
-    
+
     @Autowired
     private JwtTokenUserInterceptor jwtTokenUserInterceptor;
-    
+
     /**
      * 注册自定义拦截器
      *
@@ -41,18 +41,18 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
      */
     protected void addInterceptors(InterceptorRegistry registry) {
         log.info("开始注册自定义拦截器...");
-        
+
         // 注册管理员拦截器
         registry.addInterceptor(jwtTokenAdminInterceptor)
                 .addPathPatterns("/admin/**")
                 .excludePathPatterns("/admin/employee/login");
-        
+
         // 注册用户拦截器
         registry.addInterceptor(jwtTokenUserInterceptor)
                 .addPathPatterns("/user/**")
                 .excludePathPatterns("/user/user/login");
     }
-    
+
     /**
      * 通过knife4j生成接口文档
      */
@@ -72,7 +72,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
                 .build();
         return docket;
     }
-    
+
     /**
      * 设置静态资源映射
      *
@@ -83,7 +83,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         registry.addResourceHandler("/doc.html").addResourceLocations("classpath:/META-INF/resources/");
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
-    
+
     /**
      * 扩展Spring MVC 框架的消息转换器
      *
@@ -98,4 +98,5 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         // 将自己的消息转换器加入容器中
         converters.add(0, converter);
     }
+
 }

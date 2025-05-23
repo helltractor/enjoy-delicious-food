@@ -11,9 +11,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableCaching // 开启缓存
 @EnableTransactionManagement //开启注解方式的事务管理
 public class EnjoyApplication {
-    
+
     public static void main(String[] args) {
         SpringApplication.run(EnjoyApplication.class, args);
         log.info("Server started. Open http://localhost/#/login in your browser to login.");
     }
+
 }

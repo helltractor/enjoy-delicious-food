@@ -22,10 +22,10 @@ import java.util.List;
 @RequestMapping("/admin/setmeal")
 @Api(tags = "套餐相关接口")
 public class SetmealController {
-    
+
     @Autowired
     private SetmealService setmealService;
-    
+
     /**
      * 新增套餐
      *
@@ -38,7 +38,7 @@ public class SetmealController {
         setmealService.saveWithDish(setmealDTO);
         return Result.success();
     }
-    
+
     /**
      * 分页查询
      *
@@ -51,7 +51,7 @@ public class SetmealController {
         PageResult pageResult = setmealService.pageQuery(setmealPageQueryDTO);
         return Result.success(pageResult);
     }
-    
+
     /**
      * 批量删除套餐
      *
@@ -64,7 +64,7 @@ public class SetmealController {
         setmealService.deleteBatch(ids);
         return Result.success();
     }
-    
+
     /**
      * 根据id查询套餐，用于修改页面回显数据
      *
@@ -77,7 +77,7 @@ public class SetmealController {
         SetmealVO setmealVO = setmealService.getByIdWithDish(id);
         return Result.success(setmealVO);
     }
-    
+
     /**
      * 修改套餐
      *
@@ -90,7 +90,7 @@ public class SetmealController {
         setmealService.update(setmealDTO);
         return Result.success();
     }
-    
+
     /**
      * 套餐起售停售
      *
@@ -104,4 +104,5 @@ public class SetmealController {
         setmealService.startOrStop(status, id);
         return Result.success();
     }
+
 }

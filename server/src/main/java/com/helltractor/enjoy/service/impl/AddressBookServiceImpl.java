@@ -14,10 +14,10 @@ import java.util.List;
 @Slf4j
 @Service
 public class AddressBookServiceImpl implements AddressBookService {
-    
+
     @Autowired
     private AddressBookMapper addressBookMapper;
-    
+
     /**
      * 条件查询
      *
@@ -27,7 +27,7 @@ public class AddressBookServiceImpl implements AddressBookService {
     public List<AddressBook> list(AddressBook addressBook) {
         return addressBookMapper.list(addressBook);
     }
-    
+
     /**
      * 新增地址
      *
@@ -38,7 +38,7 @@ public class AddressBookServiceImpl implements AddressBookService {
         addressBook.setIsDefault(0);
         addressBookMapper.insert(addressBook);
     }
-    
+
     /**
      * 根据id查询
      *
@@ -49,7 +49,7 @@ public class AddressBookServiceImpl implements AddressBookService {
         AddressBook addressBook = addressBookMapper.getById(id);
         return addressBook;
     }
-    
+
     /**
      * 根据id修改地址
      *
@@ -58,7 +58,7 @@ public class AddressBookServiceImpl implements AddressBookService {
     public void update(AddressBook addressBook) {
         addressBookMapper.update(addressBook);
     }
-    
+
     /**
      * 设置默认地址
      *
@@ -70,12 +70,12 @@ public class AddressBookServiceImpl implements AddressBookService {
         addressBook.setIsDefault(0);
         addressBook.setUserId(BaseContext.getCurrentId());
         addressBookMapper.updateIsDefaultByUserId(addressBook);
-        
+
         //2、将当前地址改为默认地址 update address_book set is_default = ? where id = ?
         addressBook.setIsDefault(1);
         addressBookMapper.update(addressBook);
     }
-    
+
     /**
      * 根据id删除地址
      *
@@ -84,4 +84,5 @@ public class AddressBookServiceImpl implements AddressBookService {
     public void deleteById(Long id) {
         addressBookMapper.deleteById(id);
     }
+
 }

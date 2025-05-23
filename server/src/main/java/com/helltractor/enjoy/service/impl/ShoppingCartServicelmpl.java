@@ -21,32 +21,32 @@ import java.util.List;
  * @Author: helltractor
  * @Date: 2024/4/28 16:37
  */
-
 @Slf4j
 @Service
 public class ShoppingCartServicelmpl implements ShoppingCartService {
+
     @Autowired
     private ShoppingCartMapper shoppingCartMapper;
-    
+
     @Autowired
     private DishMapper dishMapper;
-    
+
     @Autowired
     private SetmealDishMapper setmealDishMapper;
-    
+
     public void addShoppingCart(ShoppingCartDTO shoppingCartDTO) {
         // 查询购物车中是否已经存在该商品
-        
+
         // 将DTO转换为实体类
         ShoppingCart shoppingCart = new ShoppingCart();
         BeanUtils.copyProperties(shoppingCartDTO, shoppingCart);
-        
+
         // 设置用户id
         Long userId = BaseContext.getCurrentId();
         shoppingCart.setUserId(userId);
-        
+
         List<ShoppingCart> list = shoppingCartMapper.list(shoppingCart);
-        
+
         // 如果存在，则更新商品数量
         if (list != null && list.size() > 0) {
             ShoppingCart cart = list.get(0);
@@ -55,7 +55,7 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
         } else {
             // 如果不存在，则添加商品到购物车
             Long dishId = shoppingCartDTO.getDishId();
-            
+
             if (dishId != null) {
                 Dish dish = dishMapper.getById(dishId);
                 shoppingCart.setName(dish.getName());
@@ -72,7 +72,7 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
             shoppingCartMapper.insert(shoppingCart);
         }
     }
-    
+
     /**
      * 查询购物车列表
      *
@@ -85,7 +85,7 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
         List<ShoppingCart> list = shoppingCartMapper.list(shoppingCart);
         return list;
     }
-    
+
     /**
      * 减少购物车商品数量
      *
@@ -107,7 +107,7 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
             }
         }
     }
-    
+
     /**
      * 清空购物车
      *
@@ -117,4 +117,5 @@ public class ShoppingCartServicelmpl implements ShoppingCartService {
         Long userId = BaseContext.getCurrentId();
         shoppingCartMapper.deleteByUserId(userId);
     }
+
 }

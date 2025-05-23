@@ -20,9 +20,10 @@ import java.util.List;
 @RequestMapping("/user/setmeal")
 @Api(tags = "C端-套餐浏览接口")
 public class SetmealController {
+
     @Autowired
     private SetmealService setmealService;
-    
+
     /**
      * 条件查询
      *
@@ -36,11 +37,11 @@ public class SetmealController {
         Setmeal setmeal = new Setmeal();
         setmeal.setCategoryId(categoryId);
         setmeal.setStatus(StatusConstant.ENABLE);
-        
+
         List<Setmeal> list = setmealService.list(setmeal);
         return Result.success(list);
     }
-    
+
     /**
      * 根据套餐id查询包含的菜品列表
      *
@@ -53,4 +54,5 @@ public class SetmealController {
         List<DishItemVO> list = setmealService.getDishItemById(id);
         return Result.success(list);
     }
+
 }

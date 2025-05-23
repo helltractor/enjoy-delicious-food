@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/user/order")
 @Api(tags = "用户端订单相关接口")
 public class OrderController {
-    
+
     @Autowired
     private OrderService orderService;
-    
+
     /**
      * 用户下单
      *
@@ -36,7 +36,7 @@ public class OrderController {
         OrderSubmitVO orderSubmitVO = orderService.submitOrder(ordersSubmitDTO);
         return Result.success(orderSubmitVO);
     }
-    
+
     /**
      * 订单支付
      *
@@ -51,13 +51,13 @@ public class OrderController {
         log.info("生成预支付交易单：{}", orderPaymentVO);
         return Result.success(orderPaymentVO);
     }
-    
+
     /**
      * 历史订单查询
      *
      * @param page
      * @param pageSize
-     * @param status   订单状态 1待付款 2待接单 3已接单 4派送中 5已完成 6已取消
+     * @param status 订单状态 1待付款 2待接单 3已接单 4派送中 5已完成 6已取消
      * @return
      */
     @GetMapping("/historyOrders")
@@ -66,7 +66,7 @@ public class OrderController {
         PageResult pageResult = orderService.pageQuery4User(page, pageSize, status);
         return Result.success(pageResult);
     }
-    
+
     /**
      * 查询订单详情
      *
@@ -79,7 +79,7 @@ public class OrderController {
         OrderVO orderVO = orderService.details(id);
         return Result.success(orderVO);
     }
-    
+
     /**
      * 用户取消订单
      *
@@ -91,7 +91,7 @@ public class OrderController {
         orderService.userCancelById(id);
         return Result.success();
     }
-    
+
     /**
      * 再来一单
      *
@@ -104,7 +104,7 @@ public class OrderController {
         orderService.repetition(id);
         return Result.success();
     }
-    
+
     /**
      * 客户催单
      *
@@ -117,4 +117,5 @@ public class OrderController {
         orderService.reminder(id);
         return Result.success();
     }
+
 }

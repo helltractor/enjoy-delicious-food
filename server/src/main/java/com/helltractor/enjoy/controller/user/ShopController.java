@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user/shop")
 @RestController("userShopController")
 public class ShopController {
-    
+
     private static final String SHOP_STATUS = "SHOP_STATUS";
-    
+
     @Autowired
     private RedisTemplate redisTemplate;
-    
+
     /**
      * 获取店铺的营业状态
      *
@@ -34,4 +34,5 @@ public class ShopController {
         log.info("获取店铺的营业状态为：{}", status == 1 ? "营业中" : "休息中");
         return Result.success(status);
     }
+
 }
