@@ -1,10 +1,7 @@
-name: CI Build
+name: Maven Build
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
 
@@ -17,12 +14,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up JDK 8
+      - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '8'
-          distribution: 'adopt'
+          java-version: "8"
+          distribution: "adopt"
 
-      - name: Build with Maven
+      - name: Build all modules
         run: mvn clean install
-        working-directory: build
+        working-directory: ./build
