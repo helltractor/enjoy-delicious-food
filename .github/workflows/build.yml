@@ -1,0 +1,25 @@
+name: Maven Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Maven build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: "8"
+          distribution: "adopt"
+
+      - name: Build all modules
+        run: mvn -B package
+        working-directory: ./build
